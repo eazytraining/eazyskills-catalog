@@ -11,7 +11,7 @@ description: >
 prerequisites: Basic understanding of the command line and operating systems.
 technologies:
   - docker
-  - containers
+  - docker-compose
   - docker-swarm
 language: French
 deprecated: false

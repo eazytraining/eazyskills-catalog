@@ -10,7 +10,7 @@ ALLOWED_TECHNOLOGIES = {
     "php", "go", "rust", "kotlin", "swift", "scala", "perl", "dart",
     # Containerization and orchestration
     "docker", "podman", "kubernetes", "openshift", "docker-compose",
-    "cri-o", "containerd", "helm", "rancher",
+    "cri-o", "containerd", "helm", "rancher", "docker-swarm"
     # Cloud computing
     "aws", "azure", "gcp", "ibm-cloud", "oracle-cloud", "alibaba-cloud",
     "ec2", "s3", "rds", "eks", "lambda", "azure-vm", "azure-functions",
