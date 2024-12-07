@@ -2,6 +2,7 @@ import os
 import sys
 import yaml
 from glob import glob
+from collections import defaultdict
 
 # Define the allowed technologies
 ALLOWED_TECHNOLOGIES = {
@@ -50,44 +51,55 @@ def validate_technologies(technologies):
     invalid_technologies = [tech for tech in technologies if tech not in ALLOWED_TECHNOLOGIES]
     return invalid_technologies
 
-def validate_file_format(directory, required_fields):
-    """Validate YAML file content in a directory."""
-    files = glob(f"{directory}/*.yaml")
-    invalid_files = []
+def validate_file(file, required_fields, names_seen):
+    """Validate a single YAML file."""
+    errors = []
+    with open(file, "r") as f:
+        try:
+            data = yaml.safe_load(f)
 
-    for file in files:
-        with open(file, "r") as f:
-            try:
-                data = yaml.safe_load(f)
-                
-                # Check required fields
-                for field in required_fields:
-                    if field not in data:
-                        invalid_files.append(f"{file}: Missing field '{field}'")
-                
-                # Validate technologies
-                if "technologies" in data:
-                    invalid_technologies = validate_technologies(data["technologies"])
-                    if invalid_technologies:
-                        invalid_files.append(f"{file}: Invalid technologies - {', '.join(invalid_technologies)}")
+            # Check required fields
+            for field in required_fields:
+                if field not in data:
+                    errors.append(f"{file}: Missing field '{field}'")
             
-            except yaml.YAMLError as e:
-                invalid_files.append(f"{file}: YAML parsing error - {e}")
+            # Validate uniqueness of 'name'
+            if "name" in data:
+                name = data["name"]
+                if name in names_seen:
+                    errors.append(f"{file}: Duplicate name '{name}' found in {names_seen[name]}")
+                else:
+                    names_seen[name] = file
+            
+            # Validate technologies
+            if "technologies" in data:
+                invalid_technologies = validate_technologies(data["technologies"])
+                if invalid_technologies:
+                    errors.append(f"{file}: Invalid technologies - {', '.join(invalid_technologies)}")
+        
+        except yaml.YAMLError as e:
+            errors.append(f"{file}: YAML parsing error - {e}")
     
-    return invalid_files
+    return errors
 
 if __name__ == "__main__":
     errors = []
+    names_seen = defaultdict(str)  # To track 'name' uniqueness across files
     
-    # Define required fields for each category
+    # Define required fields by category
     required_fields_courses = ["name", "url", "duration_hours", "level", "objectives", "description", "technologies", "language", "deprecated"]
     required_fields_paths = ["name", "target_role", "course_ids", "language", "deprecated"]
     required_fields_bootcamps = ["name", "target_role", "modules", "duration_weeks", "language", "deprecated"]
-    
+
     # Validate content for each category
-    errors += validate_file_format("courses", required_fields_courses)
-    errors += validate_file_format("paths", required_fields_paths)
-    errors += validate_file_format("bootcamps", required_fields_bootcamps)
+    for directory, required_fields in [
+        ("courses", required_fields_courses),
+        ("paths", required_fields_paths),
+        ("bootcamps", required_fields_bootcamps),
+    ]:
+        files = glob(f"{directory}/*.yaml")
+        for file in files:
+            errors += validate_file(file, required_fields, names_seen)
     
     if errors:
         print("Invalid file content detected:")
@@ -96,3 +108,4 @@ if __name__ == "__main__":
         sys.exit(1)
     else:
         print("All file contents are valid.")
+        
