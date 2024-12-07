@@ -1,13 +1,14 @@
 import sys
 import yaml
+import os
 
 SQL_FILE = "eazyskills_update.sql"
 
-def generate_sql_for_course(course):
+def generate_sql_for_course(course, file_path):
     """Generate SQL for a course."""
     return f"""
     INSERT INTO courses (file_path, name, url, duration_hours, level, objectives, description, prerequisites, technologies, language, deprecated)
-    VALUES ('{course["file_path"]}', '{course["name"]}', '{course["url"]}', {course["duration_hours"]}, '{course["level"]}', '{course["objectives"]}', '{course["description"]}', '{course["prerequisites"]}', ARRAY{course["technologies"]}, '{course["language"]}', {str(course["deprecated"]).upper()})
+    VALUES ('{file_path}', '{course["name"]}', '{course["url"]}', {course["duration_hours"]}, '{course["level"]}', '{course["objectives"]}', '{course["description"]}', '{course.get("prerequisites", "")}', ARRAY{course["technologies"]}, '{course["language"]}', {str(course["deprecated"]).upper()})
     ON CONFLICT (file_path) DO UPDATE SET
         name = EXCLUDED.name,
         url = EXCLUDED.url,
@@ -21,11 +22,11 @@ def generate_sql_for_course(course):
         deprecated = EXCLUDED.deprecated;
     """
 
-def generate_sql_for_path(path):
+def generate_sql_for_path(path, file_path):
     """Generate SQL for a path."""
     return f"""
     INSERT INTO paths (file_path, name, target_role, course_ids, prerequisites, url, language, deprecated)
-    VALUES ('{path["file_path"]}', '{path["name"]}', '{path["target_role"]}', ARRAY{path["course_ids"]}, '{path["prerequisites"]}', '{path["url"]}', '{path["language"]}', {str(path["deprecated"]).upper()})
+    VALUES ('{file_path}', '{path["name"]}', '{path["target_role"]}', ARRAY{path["course_ids"]}, '{path.get("prerequisites", "")}', '{path.get("url", "")}', '{path["language"]}', {str(path["deprecated"]).upper()})
     ON CONFLICT (file_path) DO UPDATE SET
         name = EXCLUDED.name,
         target_role = EXCLUDED.target_role,
@@ -36,11 +37,11 @@ def generate_sql_for_path(path):
         deprecated = EXCLUDED.deprecated;
     """
 
-def generate_sql_for_bootcamp(bootcamp):
+def generate_sql_for_bootcamp(bootcamp, file_path):
     """Generate SQL for a bootcamp."""
     return f"""
     INSERT INTO bootcamps (file_path, name, target_role, modules, duration_weeks, prerequisites, url, language, deprecated)
-    VALUES ('{bootcamp["file_path"]}', '{bootcamp["name"]}', '{bootcamp["target_role"]}', ARRAY{bootcamp["modules"]}, {bootcamp["duration_weeks"]}, '{bootcamp["prerequisites"]}', '{bootcamp["url"]}', '{bootcamp["language"]}', {str(bootcamp["deprecated"]).upper()})
+    VALUES ('{file_path}', '{bootcamp["name"]}', '{bootcamp["target_role"]}', ARRAY{bootcamp["modules"]}, {bootcamp["duration_weeks"]}, '{bootcamp.get("prerequisites", "")}', '{bootcamp.get("url", "")}', '{bootcamp["language"]}', {str(bootcamp["deprecated"]).upper()})
     ON CONFLICT (file_path) DO UPDATE SET
         name = EXCLUDED.name,
         target_role = EXCLUDED.target_role,
@@ -57,13 +58,16 @@ def process_file(file_path):
     with open(file_path, "r") as f:
         data = yaml.safe_load(f)
 
+        # Ensure file_path is included in the SQL
+        data["file_path"] = file_path  # Dynamically add the file_path field
+
         # Determine entity type based on directory
         if "courses/" in file_path:
-            return generate_sql_for_course(data)
+            return generate_sql_for_course(data, file_path)
         elif "paths/" in file_path:
-            return generate_sql_for_path(data)
+            return generate_sql_for_path(data, file_path)
         elif "bootcamps/" in file_path:
-            return generate_sql_for_bootcamp(data)
+            return generate_sql_for_bootcamp(data, file_path)
         else:
             raise ValueError(f"Unknown directory for file: {file_path}")
 
@@ -86,5 +90,5 @@ if __name__ == "__main__":
     # Write all SQL statements to the file
     with open(SQL_FILE, "w") as sql_file:
         sql_file.write("\n".join(sql_statements))
-    
+
     print(f"SQL script generated: {SQL_FILE}")
