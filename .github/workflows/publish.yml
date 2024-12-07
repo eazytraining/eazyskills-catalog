@@ -45,7 +45,7 @@ jobs:
 
       # Step 6: Save SQL Script as Artifact
       - name: Upload SQL Script as Artifact
-        if: env.files != ""  # Only upload if there are modified files
+        if: env.files != ''  # Only upload if there are modified files
         uses: actions/upload-artifact@v3
         with:
           name: eazyskills_update.sql
