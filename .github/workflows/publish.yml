@@ -20,7 +20,7 @@ jobs:
       - name: Get Modified Files
         id: modified_files
         run: |
-          MODIFIED_FILES=$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }} | grep '\.yaml$' || echo "")
+          MODIFIED_FILES=$(git diff --name-only HEAD^ HEAD | grep '\.yaml$' || echo "")
           echo "files=$MODIFIED_FILES" >> $GITHUB_ENV
 
       # Step 3: Set up Python
