@@ -1,0 +1,36 @@
+name: Validate Repository Files
+
+on:
+  pull_request:
+    branches:
+      - main  # Trigger validation on pull requests to the main branch
+
+jobs:
+  validate:
+    runs-on: ubuntu-22.04  # Use a specific version of Ubuntu
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      # Step 2: Set up Python
+      - name: Set Up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: 3.10
+
+      # Step 3: Install dependencies
+      - name: Install Dependencies
+        run: |
+          pip install yamllint==1.30.0
+          pip install PyYAML==6.0
+          pip install flake8==6.1.0  # Example for future extension if needed
+
+      # Step 4: Validate file naming convention
+      - name: Validate Naming Convention
+        run: python scripts/validate_naming.py
+
+      # Step 5: Validate file content format
+      - name: Validate File Content
+        run: python scripts/validate_format.py
