@@ -12,7 +12,7 @@ prerequisites: Connaissances de base en Docker, compréhension des concepts de c
 technologies:
   - kubernetes
   - docker
-  - containerization
-  - cloud-native
+  - docker-compose
+  - helm
 language: French
 deprecated: false
