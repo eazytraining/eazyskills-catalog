@@ -13,9 +13,9 @@ description: >
   Dans cette formation vous apprendrez à déployer vos premières applications à l'aide des pod, services, replicatset et le gestionnaire de Chart Helm.
 prerequisites: Avoir de bonnes bases sur Docker.
 technologies:
-  - Docker
-  - Kubernetes
-  - Helm
-  - Linux
+  - docker
+  - kubernetes
+  - helm
+  - linux
 language: French
 deprecated: false
