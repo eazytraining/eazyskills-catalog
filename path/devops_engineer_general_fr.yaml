@@ -1,0 +1,9 @@
+id: null
+name: DevOps Engineer Path
+target_role: DevOps Engineer
+course_ids:
+  - kubernetes_Basics_Intermediaire_fr.yaml
+prerequisites: avoir de bonnes bases sur Docker (https://eazytraining.fr/cours/introduction-a-docker/)
+url: https://eazytraining.fr/cours/kubernetes-les-bases-pour-devops/
+language: French
+deprecated: false
