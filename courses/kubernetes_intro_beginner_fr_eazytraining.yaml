@@ -11,7 +11,7 @@ description: >
 prerequisites: avoir de bonnes bases sur Docker (https://eazytraining.fr/cours/introduction-a-docker/)
 technologies:
   - kubernetes
-  - kubectl
+  - containerd
   - helm
 language: French
 deprecated: false
