@@ -1,0 +1,25 @@
+id: null
+name: Kubernetes: les bases pour DevOps
+url: https://eazytraining.fr/cours/kubernetes-bases-devops
+duration_hours: 10
+level: Intermediate
+objectives: >
+  Apprenez à déployer vos premières applications avec Kubernetes en utilisant
+  les pods, services, replicatsets et le gestionnaire de Chart Helm.
+description: >
+  Kubernetes (k8s) est une plateforme Open Source qui automatise l’exploitation des
+  conteneurs Linux. Elle permet de simplifier la gestion des clusters pour les applications
+  cloud-native, avec des cas d’usage comme la diffusion de données en temps réel via Apache Kafka.
+  Cette formation couvre les concepts fondamentaux et les outils nécessaires pour travailler efficacement
+  avec Kubernetes.
+prerequisites: >
+  Avoir de bonnes bases sur Docker. 
+  (Consultez le cours : [Introduction à Docker](https://eazytraining.fr/cours/introduction-a-docker/)).
+technologies:
+  - Kubernetes
+  - Helm
+  - Pods
+  - Services
+  - ReplicaSets
+language: French
+deprecated: false
