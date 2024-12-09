@@ -17,10 +17,5 @@ prerequisites: >
   (Consultez le cours : [Introduction à Docker](https://eazytraining.fr/cours/introduction-a-docker/)).
 technologies:
   - Kubernetes
-  - Helm
-  - Pods
-  - Services
-  - ReplicaSets
 language: French
-source: eazytraining
 deprecated: false
