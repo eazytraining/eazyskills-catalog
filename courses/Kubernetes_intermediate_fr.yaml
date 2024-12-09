@@ -1,6 +1,6 @@
 id: null
 name: Kubernetes les bases pour DevOp
-url: https://eazytraining.fr/cours/introduction-a-docker/
+url: https://eazytraining.fr/cours/kubernetes-les-bases-pour-devops/, 
 duration_hours: 10
 level: intermediate
 objectives: apprendrez à déployer vos premières applications à l’aide des pod, services, replicatset et le gestionnaire de Chart Helm.
