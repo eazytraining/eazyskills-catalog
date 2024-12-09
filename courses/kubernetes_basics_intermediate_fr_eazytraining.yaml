@@ -13,9 +13,6 @@ description: >
 prerequisites: Avoir de bonnes bases sur Docker.
 technologies:
   - kubernetes
-  - dockerlabs
-  - vagrant
-  - minikube
   - helm
 language: French
 deprecated: false
