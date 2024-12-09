@@ -9,8 +9,8 @@ description: >
   You will learn how to deploy and manage applications on Kubernetes.
 prerequisites: Basic knowledge of Docker.
 technologies:
-  - Kubernetes
-  - Docker
+  - kubernetes
+  - docker
 language: en
 source: eazyskills
 deprecated: false
