@@ -16,6 +16,7 @@ prerequisites: >
   Avoir de bonnes bases sur Docker. 
   (Consultez le cours : [Introduction à Docker](https://eazytraining.fr/cours/introduction-a-docker/)).
 technologies:
-  - Kubernetes
+  - kubernetes
+  - docker 
 language: French
 deprecated: false
