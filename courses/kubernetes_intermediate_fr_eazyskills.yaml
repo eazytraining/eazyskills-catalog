@@ -1,5 +1,5 @@
 id: null
-name: Kubernetes - Les bases pour DevOps
+name: Kubernetes_Les bases pour DevOps
 url: https://eazytraining.fr/cours/kubernetes-les-bases-pour-devops/
 duration_hours: 10
 level: Intermédiaire
@@ -12,9 +12,8 @@ description: >
   C’est la raison pour laquelle Kubernetes est la plateforme idéale pour héberger les applications cloud-native qui requièrent une mise à l’échelle rapide, comme la diffusion de données en continu et en temps réel via Apache Kafka.
 prerequisites: avoir de bonnes bases sur Docker.
 technologies:
-  - Kubernetes
-  - Docker
-  - minicube
+  - kubernetes
+  - docker
   - helm
 language: French
 deprecated: false
