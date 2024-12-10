@@ -1,4 +1,21 @@
 id: null
-name: Kubernetes(les bases pour DevOps) 
+name: "Kubernetes : les bases pour DevOps"
 url: https://eazytraining.fr/cours/kubernetes-les-bases-pour-devops/
 duration_hours: 10
+level: Intermediate
+objectives: Apprenez les bases de Kubernetes et comment l'utiliser pour gérer des conteneurs.
+description: >
+  Kubernetes, k8s (pour k, 8 caractères, s) ou encore « kube », est une plateforme Open Source qui automatise l’exploitation des conteneurs Linux. Elle permet d’éliminer de nombreux processus manuels associés au déploiement et à la mise à l’échelle des applications conteneurisées. En d’autres termes, Kubernetes vous aide à gérer facilement et efficacement des clusters au sein desquels vous aurez rassemblé des groupes d’hôtes exécutant des conteneurs Linux. Ces clusters peuvent couvrir des hôtes situés dans des clouds publics, privés ou hybrides. C’est la raison pour laquelle Kubernetes est la plateforme idéale pour héberger les applications cloud-native qui requièrent une mise à l’échelle rapide, comme la diffusion de données en continu et en temps réel via Apache Kafka.
+
+  Dans cette formation vous apprendrez à déployer vos premières applications à l’aide des pod, services, replicatset et le gestionnaire de Chart Helm.
+prerequisites: Connaissances de base en conteneurisation et Docker.
+technologies:
+  - kubernetes
+  - containers
+  - Linux
+  - Pods 
+language: French
+deprecated: false
+instructor: Dirane TAFEN (Consultant et Instructeur dans le Cloud et le DevOps)
+lessons: 66
+quizzes: 0
