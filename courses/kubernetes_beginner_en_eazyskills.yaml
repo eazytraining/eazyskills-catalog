@@ -2,14 +2,13 @@ id: null
 name: Kubernetes Beginner
 url: https://eazytraining.fr/cours/kubernetes-les-bases-pour-devops/
 duration_hours: 10
-level: Beginner
+level: beginner
 objectives: Learn the basics of Kubernetes clusters.
 description: >
   This course covers Kubernetes architecture, pods, and services.
   You will learn how to deploy and manage applications on Kubernetes.
 prerequisites: Basic knowledge of Docker.
 technologies:
-  - kubernetes
   - docker
 language: en
 deprecated: false
