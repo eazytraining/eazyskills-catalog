@@ -11,5 +11,5 @@ prerequisites: Basic knowledge of Docker.
 technologies:
   - kubernetes
   - docker
-language: English
+language: en
 deprecated: false
