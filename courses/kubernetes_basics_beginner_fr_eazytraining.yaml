@@ -16,5 +16,5 @@ prerequisites: Avoir de bonnes bases sur Docker.
 technologies:
   - kubernetes
   - docker 
-language: French
+language: fr
 deprecated: false
