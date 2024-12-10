@@ -1,15 +1,15 @@
 id: null
-name: Introduction à Docker
-url: https://eazytraining.fr/cours/introduction-a-docker/
+name: Introduction à Kubernete
+url: https://eazytraining.fr/cours/kubernetes-les-bases-pour-devops/
 duration_hours: 4
 level: Beginner
-objectives: Apprenez les bases de la conteneurisation et déployez vos premiers micro-services avec Docker.
-description: >
-  Le monde de l'IT a connu plusieurs évolutions notoire. Mais l'une des avancées les plus bouleversantes reste l'émergence des micro-services, permettant aux applications d’être plus agiles, plus flexibles, plus évolutives et plus scalable, pour le plus grand bonheur des développeurs et admins systèmes.
-  La mouvance DevOps a encore plus accentuée son adoption, c'est la raison pour laquelle c'est l'un des outils les plus incontournable sur le marché de l'IT.
-  Cette formation a pour but de vous permettre de créer vos propres micro-services à l'aide de Docker.
-prerequisites: Avoir les bases en ligne de commande Linux ainsi que les bases en administration système.
+objectives: Maîtriser les concepts fondamentaux de Kubernetes et apprendre à gérer des conteneurs à grande échelle.
+description:  Kubernetes est devenu l'outil de référence pour l'orchestration de conteneurs dans l'écosystème DevOps. Cette formation vous permettra de comprendre les principes clés de Kubernetes, de créer et gérer des clusters, et de déployer des applications conteneurisées de manière efficace et scalable.
+
+ Vous apprendrez à automatiser le déploiement, la mise à l'échelle et la gestion de vos applications conteneurisées, en utilisant les concepts fondamentaux de Kubernetes comme les pods, les déploiements, les services et l'ingress.
+prerequisites: Connaissances de base en Docker, compréhension des concepts de conteneurisation et expérience en ligne de commande Linux.
 technologies:
+  - Kubernetes
   - docker
   - docker-compose
   - docker-swarm
