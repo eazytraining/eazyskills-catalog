@@ -1,5 +1,5 @@
 id: null
-name: Kubernetes Basics
+name: Kubernetes Beginner
 url: https://eazytraining.fr/cours/kubernetes-les-bases-pour-devops/
 duration_hours: 10
 level: Beginner
@@ -11,6 +11,5 @@ prerequisites: Basic knowledge of Docker.
 technologies:
   - kubernetes
   - docker
-language: en
-source: eazyskills
+language: English
 deprecated: false
