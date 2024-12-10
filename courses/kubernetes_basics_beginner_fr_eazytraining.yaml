@@ -12,9 +12,7 @@ description: >
   cloud-native, avec des cas d’usage comme la diffusion de données en temps réel via Apache Kafka.
   Cette formation couvre les concepts fondamentaux et les outils nécessaires pour travailler efficacement
   avec Kubernetes.
-prerequisites: >
-  Avoir de bonnes bases sur Docker. 
-  (Consultez le cours : [Introduction à Docker](https://eazytraining.fr/cours/introduction-a-docker/)).
+prerequisites: Avoir de bonnes bases sur Docker. 
 technologies:
   - kubernetes
   - docker 
