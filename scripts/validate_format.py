@@ -4,7 +4,7 @@ import yaml
 from glob import glob
 from collections import defaultdict
 
-
+# Define the allowed technologies
 ALLOWED_TECHNOLOGIES = {
     # Programming languages
     "python", "java", "c", "c++", "c-sharp", "javascript", "typescript", "ruby",
