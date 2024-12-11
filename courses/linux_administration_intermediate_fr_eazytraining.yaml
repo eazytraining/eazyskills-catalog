@@ -16,7 +16,6 @@ description: >
 prerequisites: Connaissances de base en ligne de commande Linux et compréhension des concepts système.
 technologies:
   - linux
-  - bash
   - ansible
   - ubuntu
   - centos
