@@ -1,0 +1,23 @@
+id: null
+name: AWS Pour DevOps
+url: https://eazytraining.fr/cours/aws-pour-devops/
+duration_hours: 8
+level: Intermediate
+objectives: Apprendre à implémenter la méthodologie DevOps dans le Cloud, en utilisant les services AWS
+description: >
+Dans le cadre de la présente formation, nous vous apprendrons à implémenter la méthodologie DevOps dans le Cloud afin d’accélérer la croissance de votre Système d’Information.
+Ainsi vous apprendrez à réaliser les étapes d’intégration contitue et de déploiement continue grâce à CodeCommit, CodeBuild, CodeDeploy et CodePipeline.
+prerequisites: 
+  Avoir de bonnes bases sur Docker (https://eazytraining.fr/cours/introduction-a-docker/)
+  Avoir de bonnes bases sur kubernetes (https://eazytraining.fr/cours/kubernetes-les-bases-pour-devops/)
+  Avoir les bases sur aws (https://eazytraining.fr/cours/aws-preparation-a-la-certification-cloud-practitioner-2020)
+  Avoir les bases sur git (https://eazytraining.fr/cours/introduction-a-git/)
+technologies:
+  - aws
+  - docker
+  - kubernetes
+  - git
+  - eks
+  - s3
+language: French
+deprecated: false
