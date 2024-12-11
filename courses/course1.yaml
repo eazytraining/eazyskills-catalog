@@ -1,0 +1,30 @@
+id: null
+name: Data Analyst
+url: https://openclassrooms.com/fr/paths/804-data-analyst
+duration_hours: 804
+level: Beginner
+objectives: préparez, analysez et modélisez des données..
+description: >
+  Devenir Data Analyst : explorer, analyser et exploiter des données pour aider à la prise de décision en entreprise.
+prerequisites: 
+  - être titulaire d'une certification professionnelle de niveau 5 dans le développement informatique, les études statistiques ou commerciales, le marketing analytique ou en gestion financière.
+  - être titulaire du baccalauréat ou d’une certification professionnelle de niveau 4 avec une expérience professionnelle d’au moins 2 ans dans le développement informatique, les études statistiques ou commerciales, le marketing analytique ou en gestion financière.
+  - un niveau B2 minimum en français.
+  - l’accès à un ordinateur (PC ou Mac), muni d'un micro, d'une webcam ainsi que d'une bonne connexion Internet pour les séances de mentorat (3.2 Mbps en envoi et 1.8 Mbps en réception de données).
+technologies:
+  - Python 
+  - Jupiter 
+  - R, Rstudio
+  - MySQL
+  - PostgreSQL 
+  - SQL, Knime 
+  - PowerBI 
+  - Tableau
+  - Pandas
+  - Numpy 
+  - Matplotlib 
+  - Seaborn
+  - Docker
+  - Containers
+language: French
+deprecated: false
