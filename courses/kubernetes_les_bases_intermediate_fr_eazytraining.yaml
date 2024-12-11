@@ -1,0 +1,20 @@
+id: null
+name: Kubernetes les bases pour DevOps
+url: https://eazytraining.fr/cours/kubernetes-les-bases-pour-devops/
+duration_hours: 8
+level: Intermediate
+objectives: Maîtrisez les concepts fondamentaux de Kubernetes et apprenez à déployer et gérer des applications conteneurisées à grande échelle.
+description: >
+ Kubernetes est devenu l'outil incontournable pour l'orchestration de conteneurs dans l'écosystème DevOps moderne. Cette formation vous permettra de comprendre l'architecture et les composants principaux de Kubernetes déployer des applications conteneurisées de manière efficace et scalable
+ et gérer les ressources et les configurations avec Kubernetes mais aussi de mettre en place des stratégies de déploiement avancées
+ 
+ Idéal pour les développeurs, administrateurs système et professionnels DevOps qui souhaitent maîtriser l'orchestration de conteneurs.
+prerequisites: Connaissances de base en Docker, conteneurisation et systèmes distribués.
+technologies:
+ - kubernetes
+ - docker
+ - docker-compose
+ - helm
+ - openshift
+language: French
+deprecated: false
