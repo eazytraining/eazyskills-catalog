@@ -11,6 +11,8 @@ description: >
 prerequisites: Avoir des connaissances (mais pas obligatoire) en Docker et Git.
 technologies:
   - gitlab
+  - gitlab-ci
   - git
+  - docker
 language: French
 deprecated: false
