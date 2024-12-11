@@ -1,0 +1,24 @@
+id: null
+name: Préparez la certification Azure Fondamentaux AZ-900
+url: https://eazytraining.fr/cours/preparez-la-certification-azure-fundamental-az-900/
+duration_hours: 10
+level: Beginner
+objectives: Comprendre les concepts de base d’Azure et se préparer à la certification.
+description: >
+  Ce cours couvre les principaux concepts d’Azure, tels que les solutions de 
+  calcul, de stockage et de mise en réseau. Vous apprendrez également à gérer 
+  les ressources cloud et à utiliser des outils comme le portail Azure, 
+  Azure CLI et Azure PowerShell. Ce cours est conçu pour les débutants qui 
+  souhaitent se certifier et acquérir une compréhension approfondie des 
+  technologies cloud.
+prerequisites: Notions de base sur les services cloud.
+technologies:
+  - azure
+  - azure cli
+  - portail azure
+  - powershell
+  - cloud computing
+  - azure active directory
+language: fr
+source: eazyskills
+deprecated: false
