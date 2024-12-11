@@ -1,0 +1,18 @@
+id: null
+name: Terraform Cloud
+url: https://eazytraining.fr/cours/terraform-cloud/
+duration_hours: 2
+level: Intermediate
+objectives: Cette formation pratique vous aidera à maîtriser l’utilisation de Terraform Cloud pour automatiser le déploiement de vos applications sur AWS/AZURE
+description: >
+  Terraform, cet outil open source écrit en Go, vous permet de définir et de gérer votre infrastructure cloud de manière déclarative. Avec Terraform Cloud, vous pouvez orchestrer
+  le déploiement de ressources hétérogènes sur AWS/AZURE – instances EC2, services DNS avec Route53, envoi d’emails avec SES, etc. – tout en bénéficiant d’une plateforme collaborative et intégrée.
+  Contrairement à d’autres solutions du marché comme Puppet ou Chef, Terraform se positionne comme un outil multiplateforme capable de couvrir une large gamme de services
+  cloud. Son approche polyvalente vous permet de gérer de manière unifiée votre infrastructure AWS, tout en restant agile face aux évolutions constantes du paysage technologique.
+prerequisites: Avoir des connaissances de base sur AWS
+  Avoir suivi le cours sur Terraform les bases pour DevOps
+technologies:
+  - aws
+  - terraform
+language: French
+deprecated: false
