@@ -12,6 +12,7 @@ prerequisites: Avoir des bases en AWS (https://eazytraining.fr/cours/aws-prepara
 technologies:
   - terraform
   - aws
-  - ansible
+  - ec2
+  - s3
 language: French
 deprecated: false
