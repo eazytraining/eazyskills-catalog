@@ -20,6 +20,5 @@ technologies:
  - ansible
  - ubuntu
  - centos
- - shell-scripting
 language: French
 deprecated: false
