@@ -2,7 +2,7 @@ id: null
 name: Gitlab CI/CD pour DevOps
 url: https://eazytraining.fr/cours/gitlab-ci-cd-pour-devops/
 duration_hours: 4
-level: intermediate
+level: Intermediate
 objectives: Vous permettre de monter vos propres chaîne d’intégration continue et déploiement continu à l’aide de Gitlab-ci, véritable couteau Suisse.
 description: >
   Basé sur Git pour gérer les dépôts de codes, GitLab se présente comme une alternative à GitHub avec une forte dimension CI/CD.
