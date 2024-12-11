@@ -1,0 +1,17 @@
+id: null
+name: "Préparez la certification Azure Fundamental : AZ-900"
+url: https://eazytraining.fr/cours/preparez-la-certification-azure-fundamental-az-900/
+duration_hours: 7
+level: Beginner
+objectives: L’objectif de cette formation est de vous préparer à la certification AZ-900 connue sous le nom AZURE Fundamentals, qui est la certification qui vous permet de rentrer dans l’univers AZURE surtout si vous êtes novice dans le Cloud Computing.
+description: >
+  Le Cloud Computing est en plein essor. Peu à peu, cette technologie remplace les infrastructures sur site dans les entreprises de toutes les industries. Son principal avantage est de permettre aux organisations d’accéder à des ressources informatiques sans avoir à investir dans des Data Centers ou à gérer les serveurs.
+  En 2018, ce marché en pleine explosion est partagé par quatre principaux acteurs, Amazon Web Services, Microsoft Azure, Alibaba et Google Cloud Platform. Si Amazon est le leader incontesté du Cloud public, Microsoft le rattrape peu à peu avec sa plateforme Azure.
+  Vous souhaitez vous lancer dans le Cloud et vous ne savez par où commencer ? Vous avez un penchant pour les technologies Microsoft ? Alors AZURE est la solution.
+prerequisites: Connaissances de base en Cloud.
+technologies:
+  - azure
+  - azure-vm
+  - azure-functions
+language: French
+deprecated: false
