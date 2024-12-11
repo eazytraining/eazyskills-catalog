@@ -2,7 +2,7 @@ id: null
 name: OpenShift les bases pour débutant
 url: https://eazytraining.fr/cours/openshift-les-bases-pour-debutant/
 duration_hours: 3
-level: Advanced
+level: Intermediate
 objectives: Vous permettre de déployer vos propres applications sur OpenShift et de créer votre propre catalogue d’application au sein de votre entreprise.
 description: >
   OpenShift est une plateforme PaaS open source qui facilite le déploiement, la gestion et l'exécution d'applications en conteneurs, intégrant Kubernetes pour l'orchestration.
