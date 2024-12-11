@@ -1,0 +1,24 @@
+id: null
+name: Les bases de Terraform pour DevOps
+url: https://eazytraining.fr/cours/terraform-les-bases-pour-devops/
+duration_hours: 8
+level: Beginner
+objectives: Apprenez les bases de Terraform pour gérer l'infrastructure efficacement.
+description: >
+  Ce cours introduit les principes fondamentaux de Terraform, y compris son 
+  approche déclarative pour l'infrastructure as code (IaC). Vous découvrirez 
+  les modules, la gestion de l'état et le provisionnement des ressources dans 
+  des scénarios concrets. À la fin du cours, vous serez capable d'automatiser 
+  la création et la gestion d'infrastructure cloud sur des plateformes telles 
+  qu'AWS, Azure et Google Cloud.
+prerequisites: Connaissances de base en cloud computing, Linux et concepts DevOps.
+technologies:
+  - terraform
+  - aws
+  - azure
+  - gcp
+  - devops
+  - iac
+language: fr
+source: eazyskills
+deprecated: false
