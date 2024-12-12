@@ -1,0 +1,21 @@
+id: null
+name: GitOps avec ArgoCD  Continuous Delivery on Kubernetes
+url: https://eazytraining.fr/cours/gitops-avec-argocd-continuous-delivery-on-kubernetes/
+duration_hours: 4
+level: Advanced
+objectives: apprendre comment assurer du continuous deployment intelligent avec ArgoCD.
+description: >
+  Nous vivons dans le monde de l’IT une croissance exponentielle des micro-services, et pour les déployer à l’échelle on utilise des outils tels que Kubernetes. C’est pour cette raison que dans le cadre de cette formation nous apprendrons à faire du GitOps sur un cluster kubernetes. Et l’outil qui nous permettra de mettre cette culture en place est ArgoCD de ArgoProj.
+prerequisites:
+       Avoir de bonnes bases sur Docker (https://eazytraining.fr/cours/introduction-a-docker/)
+      Avoir de bonnes bases sur DevOps avec Jenkins Pipeline (https://eazytraining.fr/cours/jenkins-ci-cd-pour-devops/)
+      Avoir de bonnes bases sur Kubernetes (https://eazytraining.fr/cours/kubernetes-les-bases-pour-devops/)
+      Avoir les bases sur git (https://eazytraining.fr/cours/introduction-a-git/)
+technologies:
+  - argo-cd
+  - jenkins
+  - kubernetes
+  - git 
+  - docker
+language: French
+deprecated: false
