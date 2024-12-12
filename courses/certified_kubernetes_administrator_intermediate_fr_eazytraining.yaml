@@ -1,0 +1,28 @@
+id: null
+name: "Devenez Certified Kubernetes Administrator"
+url: https://eazytraining.fr/cours/devenez-certified-kubernetes-administrator/
+duration_hours: 7
+level: Intermediate
+objectives: Relevez les défis de l'administration d'un cluster Kubernetes.
+description: >
+  De nos jours, Kubernetes est de plus en plus adopté par les entreprises pour gérer leurs applications conteneurisées. Cette technologie open-source a révolutionné la manière dont les applications sont déployées, gérées et mises à l'échelle.
+  La demande de professionnels qualifiés en Kubernetes est en constante augmentation. La certification Kubernetes CKA (Certified Kubernetes Administrator) est une étape essentielle pour se distinguer sur le marché du travail et pour maîtriser cette technologie de pointe.
+  Notre formation de préparation à la certification Kubernetes CKA a été conçue en respectant scrupuleusement le cahier des charges du curriculum officiel de la certification. Elle vous permettra d'acquérir les compétences nécessaires pour administrer un cluster Kubernetes en mettant l'accent sur les aspects suivants :
+  1. Architecture et installation : Découvrez l'architecture d'un cluster Kubernetes et apprenez à installer et configurer les différents composants nécessaires à son bon fonctionnement.
+  2. Gestion des nœuds : Apprenez à gérer les nœuds d'un cluster Kubernetes, en comprenant leur fonctionnement, leur monitoring et leur mise à jour.
+  3. Déploiement d'applications : Déployez des applications conteneurisées sur Kubernetes en utilisant des services, des déploiements et des répliques.
+  4. Gestion du stockage : Maîtrisez les concepts de stockage sous-jacent et configurez des volumes persistants pour vos applications.
+  5. Sécurité et contrôle d'accès : Mettez en place des mécanismes de sécurité, authentification et autorisation pour protéger vos clusters Kubernetes et vos applications.
+  6. Mise en réseau : Comprenez les concepts de réseau dans un environnement Kubernetes et configurez les services de découverte et de communication entre les applications.
+  7. Monitoring et logging : Apprenez à surveiller et à collecter les journaux de votre cluster Kubernetes pour assurer sa bonne santé et détecter d'éventuels problèmes.
+prerequisites: >
+  1. Avoir de bonnes bases sur Docker (https://eazytraining.fr/cours/introduction-a-docker/)
+  2. Avoir de bonnes bases sur kubernetes (https://eazytraining.fr/cours/kubernetes-les-bases-pour-devops/)
+technologies:
+  - kubernetes
+  - docker
+  - helm
+  - docker-compose
+  - docker-swarm
+language: French
+deprecated: false
