@@ -9,7 +9,7 @@ prerequisites:
 url: https://eazytraining.fr/%C3%A9v%C3%A9nement/bootcamp-platform-engineer-kubernetes/
 modules:
   - Module 0 - Présentation du métier de Platform Engineer et différence avec le DevOps Engineer
-  - Module 1 - Rappel sur le DevOps et mise en place d’une pipeline complète sur Kubernetes (Service Pipeline)
+  - Module 1 - Rappel sur le DevOps et mise en place d une pipeline complète sur Kubernetes (Service Pipeline)
   - Module 2 - GitOps multi-cluster avec ArgoCD (Environment pipeline)
   - Module 3 - Multi-Cloud infrastructure avec CrossPlane (AWS, GCP, AZURE …)
   - Module 4 - Création dynamique de cluster kubernetes avec vcluster + crossplane pour les développeurs
