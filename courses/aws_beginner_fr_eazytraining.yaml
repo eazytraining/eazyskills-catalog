@@ -1,0 +1,22 @@
+id: null
+name: Certification AWS Cloud Practitioner 2020
+url: https://eazytraining.fr/cours/aws-preparation-a-la-certification-cloud-practitioner-2020/
+duration_hours: 12
+level: Beginner
+objectives: Acquérir une base solide pour comprendre les services et solutions AWS.
+description: >
+  Ce cours propose une vue d’ensemble de l’écosystème AWS Cloud, y compris les 
+  services de calcul, de stockage, de base de données et de mise en réseau. 
+  Il met l'accent sur les meilleures pratiques en matière d'architecture, de 
+  gestion des coûts et de sécurité. Le cours comprend également des quiz, 
+  des exercices pratiques et des examens blancs pour se préparer à la 
+  certification AWS Certified Cloud Practitioner.
+prerequisites: Aucune expérience préalable avec AWS n’est requise.
+technologies:
+  - aws
+  - s3
+  - ec2
+  - rds
+language: French
+source: eazytraining
+deprecated: false

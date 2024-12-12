@@ -1,0 +1,21 @@
+id: null
+name: "Power BI Service - créer et partager vos dashboards en toute simplicité"
+url: https://eazytraining.fr/cours/power-bi-service/
+duration_hours: 2
+level: Intermediate
+objectives: Apprenez à collaborer, partager et publier vos dashboards Power BI en toute simplicité.
+description: >
+  Power BI Service est un service cloud proposé par Microsoft dans le cadre de sa suite Power BI pour l'analyse des données et la business intelligence. Alors que Power BI Desktop est une application de bureau utilisée pour créer des rapports et des analyses, Power BI Service (souvent appelé simplement “Power BI”) est une plateforme en ligne qui permet de partager, collaborer et publier ces rapports et dashboards.
+  Voici quelques points clés sur Power BI Service :
+  1. Partage et Collaboration : Une fois qu'un rapport est créé dans Power BI Desktop, il peut être publié sur Power BI Service pour le partager avec d'autres utilisateurs. Vous pouvez également collaborer avec d'autres utilisateurs sur des rapports en temps réel.
+  2. Dashboards : Dans Power BI Service, vous pouvez créer des tableaux de bord qui sont des collections visuelles de rapports, mesures et autres éléments pertinents. Ces dashboards peuvent être partagés et vus sur des appareils mobiles.
+  3. Actualisation des données : Power BI Service permet d'actualiser vos données à partir de sources variées, assurant que vos rapports et dashboards sont toujours à jour.
+  4. Intégration avec d'autres services Microsoft : Power BI Service s'intègre étroitement avec d'autres services tels que Microsoft Teams, SharePoint et le service Flow, pour n'en nommer que quelques-uns.
+  5. Sécurité : Vous pouvez définir des niveaux d'accès spécifiques pour les utilisateurs et les groupes, garantissant que seules les personnes autorisées peuvent voir ou interagir avec vos données.
+  6. Power BI Mobile : Il existe une application mobile pour Power BI qui permet aux utilisateurs d'accéder à leurs rapports et dashboards depuis leur smartphone ou tablette.
+prerequisites: Aucun.
+technologies:
+  - power-bi
+  - excel
+language: French
+deprecated: false
