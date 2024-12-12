@@ -9,7 +9,7 @@ description: >
   Les solutions et périphériques Cisco sont aujourd’hui utilisés lors de la mise en place des réseaux pour les fournisseurs de services, les petites, des moyennes entreprises, mais surtout des grandes entreprises.
   Cisco domine aujourd’hui le monde de l’informatique avec une panoplie de solutions mise sur le marché.
   il est donc gage de sécurité dans le monde des entreprises d’avoir des compétences de déploiements, de configuration et mise en œuvre et d’administration des périphériques Cisco.
-prerequisites: >
+prerequisites: 
  Pour suivre ce cours Cisco, il est conseillé d’avoir une connaissance du calcul en binaire et des connaissances générales dans le monde de l’informatique
 technologies:
   - Cisco packet
