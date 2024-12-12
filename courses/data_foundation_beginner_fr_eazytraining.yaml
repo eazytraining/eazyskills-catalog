@@ -13,3 +13,4 @@ technologies:
   - python
   - mysql
 language: French
+deprecated: false
