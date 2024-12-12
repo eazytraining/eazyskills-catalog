@@ -14,7 +14,9 @@ prerequisites:
 technologies:
   - windows
   - linux
-  - Cisco ios
+  - cisco 
+  - packet-tracer
+  
 
 language: French
 deprecated: false
