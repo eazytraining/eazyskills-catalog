@@ -1,0 +1,14 @@
+id: null
+name: Platform Engineer Kubernetes Bootcamp
+target_role: Platform Engineer
+prerequisites: Connaissances en administration système et réseaux.
+url: https://eazytraining.fr/%C3%A9v%C3%A9nement/bootcamp-platform-engineer-kubernetes/
+modules:
+  - Module 1: Introduction à Kubernetes et à l'architecture des clusters
+  - Module 2: Déploiement et gestion des applications sur Kubernetes
+  - Module 3: Gestion des ressources Kubernetes et scaling
+  - Module 4: Réseautage et sécurité dans Kubernetes
+  - Module 5: Automatisation avec Helm
+duration_weeks: 10
+language: French
+deprecated: false
