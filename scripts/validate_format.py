@@ -22,7 +22,7 @@ ALLOWED_TECHNOLOGIES = {
     "arangodb", "influxdb", "prometheus", "timescale",
     # DevOps and infrastructure
     "terraform", "ansible", "chef", "puppet", "packer", "vault", "consul",
-    "jenkins", "gitlab-ci", "github-actions", "spinnaker", "argo-cd", "flux",
+    "jenkins", "gitlab-ci", "github-actions", "spinnaker", "argo-cd", "flux", "Cisco packet"
     # Security
     "nmap", "wireshark", "burp-suite", "metasploit", "nessus",
     "kali-linux", "trivy", "fail2ban",
