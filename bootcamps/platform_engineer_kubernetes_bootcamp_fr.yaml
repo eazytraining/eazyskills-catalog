@@ -15,7 +15,7 @@ modules:
   - Module 4 - Création dynamique de cluster kubernetes avec vcluster + crossplane pour les développeurs
   - Module 5 - Délivrer des APIs standard pour middleware (cache, statestore) avec Dapr
   - Module 6 - Industrialiser la mise en production des applications avec knative
-  - Module 7 - Mesurer les performances de votre “Platform Kubernetes” au service des développeurs avec les DORA metrics
+  - Module 7 - Mesurer les performances de votre Platform Kubernetes au service des développeurs avec les DORA metrics
 duration_weeks: 10
 language: French
 deprecated: false
