@@ -3,20 +3,19 @@ name: "Devenez Platform Engineer Kubernetes."
 url: https://eazytraining.fr/cours/platform-engineer-kubernetes/
 duration_hours: 4
 level: Intermediate
-objectives: vous apprendre comment devenir un SRE dans un environnement de type micro-services orchestré par Kubernetes (qui est dorénavant un composant indispensable dans l'univers OpenSource et Cloud Native).
+objectives: Apprenez à concevoir, déployer et gérer des plateformes cloud basées sur Kubernetes.
 description: >
-  Il est commun d'entendre que SRE est une implémentation concrète de la culture DevOps.
-  Bonne nouvelle, on parle bien de profil SRE puisque le terme Engineer en anglais fait référence à un ingénieur, donc une personne.
-  Commençons par discerner 5 piliers dans la culture DevOps:
-    - Faciliter la communication dans l'entreprise
-    - Accepter et banaliser les erreurs
-    - Appliquer des changements plus petits mais plus fréquents
-    - Automatiser les tâches les plus chronophages
-    - Relever tous les indicateurs qui pourraient être pertinents
-  Le SRE se présente comme une solution pour implémenter le DevOps dans les métiers d'exploitation (Backup, restauration, Upgrade, Scaling …).
+  Ce cours est conçu pour les professionnels de l’informatique qui souhaitent se spécialiser en tant que Platform Engineer avec une expertise particulière en Kubernetes. Il couvre les compétences essentielles pour concevoir, déployer et gérer des plateformes cloud basées sur Kubernetes.
+  Objectifs du cours:
+  1. Comprendre le rôle d’un Platform Engineer dans un environnement Kubernetes et DevOps.
+  2. Maîtriser l’architecture et le fonctionnement de Kubernetes pour orchestrer des conteneurs.
+  3. Apprendre à déployer des applications sur Kubernetes en utilisant des pratiques de CI/CD gitops.
+  4. Explorer les concepts de microservices et leur déploiement dans un cluster Kubernetes.
+  5. Gérer la sécurité, la mise à l’échelle et la résilience des applications dans Kubernetes.
 prerequisites: >
   1. Avoir de bonnes bases sur Docker (https://eazytraining.fr/cours/introduction-a-docker/)
   2. Avoir de bonnes bases sur kubernetes (https://eazytraining.fr/cours/kubernetes-les-bases-pour-devops/)
+  3. Avoir de bonnes bases sur Linux (https://eazytraining.fr/cours/linux-administration-et-automatisation/)
 technologies:
   - docker
   - docker-compose
@@ -27,5 +26,6 @@ technologies:
   - argo-cd
   - vcluster
   - dapr
+  - linux
 language: French
 deprecated: false
