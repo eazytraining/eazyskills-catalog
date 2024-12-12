@@ -1,0 +1,34 @@
+id: null
+name: Devenez aws certified associate architect et sysops. 
+url: https://eazytraining.fr/cours/devenez-aws-certified-associate-architect-et-sysops/
+duration_hours: 30
+level: Intermediate
+objectives: 
+  Comprendre les fondamentaux du cloud computing et l'architecture aws.
+  Savoir déployer des applications cloud en utilisant les services aws.
+  Concevoir des architectures scalables et résilientes avec AWS.
+  Maîtriser la gestion des réseaux et des bases de données dans le cloud.
+  Automatiser les déploiements avec AWS CloudFormation et d'autres outils d'infrastructure en tant que code.
+  Gérer et optimiser les coûts cloud en utilisant les outils d'aws cost management.
+  Implémenter des meilleures pratiques de sécurité sur aws.
+  Préparer les participants à passer les certifications
+    AWS Cloud Practitioner,
+    Solutions Architect Associate.
+    AWS SysOps Administrator Associate
+description: >
+  Ce cours complet sur AWS Cloud Engineer vous guide pas à pas à travers l'univers du cloud computing avec AWS.
+  Vous apprendrez à concevoir, implémenter et maintenir des infrastructures cloud hautement disponibles,
+  sécurisées et évolutives, tout en maîtrisant les services AWS incontournables tels que EC2, S3, VPC, RDS,
+  Lambda, CloudFormation et bien d'autres..
+prerequisites: 
+  Une connaissance de base des réseaux et systèmes informatiques est recommandée.
+  Aucun prérequis spécifique en aws n'est nécessaire, ce cours couvre tout de a à z.
+technologies:
+  - ec2 
+  - s3
+  - lambda 
+  - iam
+  - rds
+  - eks
+language: French
+deprecated: false
