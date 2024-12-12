@@ -51,6 +51,8 @@ ALLOWED_TECHNOLOGIES = {
     "jira",
     # Data tools
     "power-bi", "excel", "power-query", "sql", "snowflake", "teradata", "talend",
+    # Network tools
+    "cisco", "packet-tracer",
 }
 
 def validate_technologies(technologies):
