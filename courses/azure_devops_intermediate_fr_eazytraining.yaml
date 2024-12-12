@@ -5,15 +5,24 @@ duration_hours: 17
 level: Intermediate
 objectives: Cette formation azure devops a pour objectif de vous donner les fondamentaux sur cet environnement.
 description: >
-  Ce cours offre une introduction complète à Docker, une plateforme puissante pour construire, déployer et exécuter des applications distribuées. Les étudiants apprendront à utiliser Docker pour rationaliser les processus de développement, de test et de déploiement. Les sujets abordés comprennent
-  Containerisation : comprendre le concept des conteneurs et leurs avantages.
-  Architecture docker : Explorer les composants de l'écosystème Docker.
-  Commandes docker : maîtriser les commandes Docker essentielles pour la gestion des images, la création de conteneurs et la mise en réseau.
-  Dockerfiles : construire des images Docker personnalisées à partir de Dockerfiles.
-  Docker compose : orchestrer des applications multi-conteneurs.
-  Réseaux Docker : configurer les réseaux pour les conteneurs Docker.
-  Volumes Docker : gérer les données persistantes dans les conteneurs Docker.
-  Bonnes pratiques : mettre en œuvre des pratiques Docker efficaces pour les environnements de développement et de production.
+  Les équipes de développeurs et d’opérateurs sont de plus en plus nombreuses à adopter la culture DevOps pour répondre à la dualité entre les développeurs et les opérationnels.
+  il y’a quelques années , 37% des entreprises auraient déjà mis en place des projets DevOps (Trend Micro, 2019), et Azure DevOps et ses atouts commencent à faire figure de références dans le milieu.
+  Pourtant, le nombre d’outils estampillés « DevOps » s’allonge de jour en jour (retrouvez notre article des outils DevOps incontournables) et il est facile de s’y perdre dans la jungle des solutions. Dans cette jungle se distinguent certaines solutions comme Azure DevOps.
+  Les raisons sont multiples, c’est pourquoi nous avons résumé les forces de Azure DevOps en 5 principaux avantages.
+  La sécurité - L’environnement Azure fait de la sécurité sa priorité en respectant à la lettre les modèles de sécurité standards :
+  détecter, évaluer, diagnostiquer, stabiliser, fermer. Le tout couplé à un contrôle de cybersécurité rigoureux, ce qui vaut à Microsoft Azure un imposant éventail de conformités internationales.
+  La collaboration - Azure DevOps fait du partage une de ses principales forces. Parvenir à héberger et gérer du code de façon centralisée est bien souvent la clé lorsque l’on
+  cherche à optimiser la gestion de projet et le développement logiciel.
+  Même si votre équipe ne dispose que de scripts PowerShell ou VB, Azure DevOps a l’avantage de se charger de centraliser le tout. Vous pouvez même continuer
+  à contrôler les versions sur Team Foundation ou GIT.
+  La gestion des tâches - Même si vous n’avez pas de code à gérer, vous pouvez coordonner la gestion de vos systèmes avec ce qu’Azure appelle des tâches. La gestion de ces tâches
+  (qu’il s’agisse d’un serveur, d’un risque de projet ou d’un bogue du système, par exemple.) s’imbrique parfaitement dans un contexte de création de modèle de processus.
+  En utilisant un modèle de processus, vous pouvez modéliser vos tâches autour d’un Framework Agile (particulièrement apprécié pour le développement logiciel) ou de CMMI (Capability Maturity Model Integration). Quelle que soit la manière dont vous les organisez, cette gestion des tâches aidera votre équipe à diviser vos systèmes complexes et de multiples projets beaucoup plus facilement.
+  L’Intégration et la livraison continue - Pour les organisations axées sur les logiciels, Azure DevOps fournit une plate-forme robuste sur laquelle vous pouvez déployer vos
+  solutions dans un pipeline permettant une intégration et un déploiement continus. Que vous déployiez une solution hébergée chez Azure ou chez AWS, le pipeline CI/CD d’Azure DevOps peut prendre en charge votre solution du développement à la livraison. Grâce à son riche catalogue de plugins et d’intégrations, l’infrastructure-as-code peut également être incorporée dans le pipeline pour automatiser des changements d’envergure. Le tout, à un seul et même endroit.
+   Une plateforme ouverte - Azure Devops offre des possibilités d’intégration poussées avec de nombreux outils industriels et communautaires. Son marché d’application met à
+  disposition des centaines d’extensions. En d’autres termes, si Devops ne prend pas en charge une fonctionnalité dont vous avez besoin, vous trouverez probablement une extension qui s’en occupe.
+  Pour résumer, Azure DevOps est avant tout une plateforme sécurisée, collaborative et ouverte dont le champs des possibilités offertes est vaste.
 prerequisites:
   - Docker (https://eazytraining.fr/cours/introduction-a-docker/)
   - Azure cloud (https://eazytraining.fr/cours/preparez-la-certification-azure-fundamental-az-900/)
