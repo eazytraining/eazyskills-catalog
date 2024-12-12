@@ -1,0 +1,17 @@
+id: null
+name: Kubernetes - Les bases pour DevOps
+url: https://eazytraining.fr/cours/kubernetes-les-bases-pour-devops/
+duration_hours: 10
+level: Beginner
+objectives: >
+  Comprendre les fondamentaux de Kubernetes et son utilisation
+  dans un contexte DevOps.
+description: >
+  Ce cours couvre l'installation de Kubernetes, les commandes
+  de base et l'orchestration des conteneurs.
+prerequisites: Connaissances de base en programmation.
+technologies:
+  - Kubernetes
+  - Conteneurs
+language: French
+deprecated: false
