@@ -14,7 +14,7 @@ prerequisites:
         avoir de bonnes bases sur Gitlab-ci  https://eazytraining.fr/cours/gitlab-ci-cd-pour-devops/
 technologies:
   - docker
-  - ontainers
+  - containerd
   - kubernetes
   - git 
   - gitlab
