@@ -1,0 +1,16 @@
+id: null
+name: Data Foundation - débutez dans la data
+url: https://eazytraining.fr/cours/data-foundation-debutez-dans-la-data/
+duration_hours: 1
+level: Beginner
+objectives: Comprendre les principes de base pour réussir un projet d'analyse de données.
+description: >
+  Cette formation vous introduit au monde de la data. À travers une série de modules,
+  vous apprendrez les fondamentaux de l'analyse de données, l'importance de la Business Intelligence,
+  et les meilleures pratiques pour mener un projet réussi dans le domaine de la data.
+prerequisites: Pas de prérequis.
+technologies:
+  - python
+  - mysql
+language: French
+deprecated: false
