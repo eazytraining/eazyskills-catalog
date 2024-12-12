@@ -1,0 +1,24 @@
+id: null
+name: "POWER QUERY : débutez l'analyse de données avec power query"
+url: https://eazytraining.fr/cours/power-query-debutez-lanalyse-de-donnees-avec-power-query/
+duration_hours: 1
+level: Beginner
+objectives: "Apprenez à manipuler les données avec Power Query."
+description: >
+  Aujourd'hui, les données ont envahi notre quotidien. Ces données sont devenues une ressource très précieuse pour les entreprises.
+  Quelque soit votre projet professionnel, la préparation et l'analyse des données est devenue une compétence précieuse et de plus en plus recherchée.
+  Le but de cette formation est de vous permettre d'acquérir les compétences nécessaires pour développer une  aisance dans la manipulation des données avec Power Query en vue de leur exploitation dans Excel ou Power BI.
+  A la fin de cette formation vous serez capable de :
+  1. Comprendre l'importance d'un ETL
+  2. Importer des données
+  3. Comprendre l'importance des transformations
+  4. Nettoyer les données 
+  5. Charger les données
+  6. Apprendre les bonnes pratiques
+prerequisites: Avoir de bonnes connaissances sur Excel.
+technologies:
+  - power-query
+  - excel
+  - power-bi
+language: French
+deprecated: false
