@@ -1,0 +1,16 @@
+id: null
+name: TEKTON  Réalisez des pipelines Kubernetes-Native
+url:  https://eazytraining.fr/cours/tekton-realisez-des-pipelines-kubernetes-native/
+duration_hours: 5
+level: Expert
+objectives:  vous donner les clés pour vous permettre de mettre en place TEKTON afin d’automatiser vos process de CI/CD dans un environnement kubernetes.
+description: >
+ Le DevOps a su briser les barrières entre les équipes Dev et les équipes Ops. Néanmoins il restait encore une barrière à briser : celle qui permettrait de déployer de rassembler l’infrastructure de Dev et l’infrastructure des Ops sur une même plateforme suffisamment agile et scalable pour s’adapter à l’évolution des besoins des différentes équipes et ainsi utiliser toutes les possibilités que nous offre Kubernetes et la Cloud. Ainsi on parlera de Pipeline Cloud-Native et Kubernetes-Native, l’une des technologies qui a su répondre à ce besoin est TEKTON que nous aborderons dans ce cours.
+prerequisites: >
+ avoir de bonnes bases sur Docker (https://eazytraining.fr/cours/introduction-a-docker/)
+ avoir de bonnes bases sur kubernetes (https://eazytraining.fr/cours/kubernetes-les-bases-pour-devops/)
+technologies:
+  - docker
+  - kubernetes
+language: French
+deprecated: false
