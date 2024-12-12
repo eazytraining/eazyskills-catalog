@@ -1,7 +1,7 @@
 id: null
 name: "Devenez Site Reliability Engineer"
 url: https://eazytraining.fr/cours/devenez-site-reliability-engineer/
-duration_hours: 4
+duration_hours: 8
 level: Advanced
 objectives: "Devenir un Site Reliability Engineer dans un environnement de type micro-services orchestré par Kubernetes."
 description: >
@@ -21,10 +21,11 @@ prerequisites: >
 technologies:
   - kubernetes
   - docker
+  - docker-compose
   - helm
   - prometheus
-  - git
+  - aws
   - grafana
-  - azure-devops
+  - azure
 language: French
 deprecated: false
