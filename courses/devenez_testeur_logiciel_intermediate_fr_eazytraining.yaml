@@ -1,0 +1,15 @@
+id: null
+name: Devenez testeur logiciel - Parcours complet de débutant à confirmé 
+url: https://eazytraining.fr/cours/devenez-testeur-logiciel-parcours-complet-de-debutant-a-confirme/
+duration_hours: 9
+level: Intermediate
+objectives: Former des analystes qualité capables d'assurer la qualité des logiciels à toutes les étapes de leur cycle de vie.
+description: >
+  Cette formation aborde les bases du métier d'analyste qualité, la méthodologie des tests logiciels,
+  les outils nécessaires et les concepts avancés comme les tests mobiles et l'accessibilité.
+prerequisites: Pas de prérequis.
+technologies:
+  - jira 
+  - xray
+  - postman
+language: French
