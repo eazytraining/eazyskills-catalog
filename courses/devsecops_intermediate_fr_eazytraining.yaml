@@ -13,8 +13,8 @@ prerequisites:
         avoir de bonnes bases sur kubernetes (https://eazytraining.fr/cours/kubernetes-les-bases-pour-devops/)
         avoir de bonnes bases sur Gitlab-ci  https://eazytraining.fr/cours/gitlab-ci-cd-pour-devops/
 technologies:
-  - Docker
-  - Containers
+  - docker
+  - ontainers
   - kubernetes
   - git 
   - gitlab
