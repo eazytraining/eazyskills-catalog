@@ -2,13 +2,13 @@ id: null
 name: Kubernetes Platform Engineer Path
 target_role: Kubernetes Platform Engineer
 course_ids:
-  - docker_intro_beginner_fr_eazytraining.yaml
-  - kubernetes_les_bases_intermediate_fr_eazytraining.yaml
-  - certified_kubernetes_administrator_intermediate_fr_eazytraining.yaml
-  - gitops_with_argocd_kubernetes_cd_advanced_fr_eazytraining.yaml
-  - site_reliability_engineer_advanced_fr_eazytraining.yaml
-  - devsecops_apps_and_infrastructure_intermediate_fr_eazytraining.yaml
-  - kubernetes_platform_engineer_intermediate_fr_eazytraining.yaml
+  - courses/docker_intro_beginner_fr_eazytraining.yaml
+  - courses/kubernetes_les_bases_intermediate_fr_eazytraining.yaml
+  - courses/certified_kubernetes_administrator_intermediate_fr_eazytraining.yaml
+  - courses/gitops_with_argocd_kubernetes_cd_advanced_fr_eazytraining.yaml
+  - courses/site_reliability_engineer_advanced_fr_eazytraining.yaml
+  - courses/devsecops_apps_and_infrastructure_intermediate_fr_eazytraining.yaml
+  - courses/kubernetes_platform_engineer_intermediate_fr_eazytraining.yaml
 prerequisites: Connaissances de base sur Docker.
 url: https://eazytraining.fr/parcours-platform-engineer-kubernetes/
 language: French
