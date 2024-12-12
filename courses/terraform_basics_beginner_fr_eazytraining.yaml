@@ -17,8 +17,6 @@ technologies:
   - aws
   - azure
   - gcp
-  - devops
-  - iac
 language: fr
 source: eazytraining
 deprecated: false
