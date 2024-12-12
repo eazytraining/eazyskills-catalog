@@ -9,7 +9,7 @@ modules:
   - Module 3 - Gestion des clusters avec Kubernetes
   - Module 4 - Automatisation avec Ansible
   - Module 5 - Pipelines CI/CD avec Jenkins
-  - Module 6 - Gestion d'infrastructure avec Terraform
+  - Module 6 - Gestion d infrastructure avec Terraform
   - Module 7 - CI/CD avec GitLab
 duration_weeks: 12
 language: French
