@@ -1,0 +1,16 @@
+id: null
+name: DevOps Bootcamp
+target_role: DevOps Engineer
+prerequisites: Connaissances basiques en Linux et réseaux.
+url: https://eazytraining.fr/%C3%A9v%C3%A8nement/devops-bootcamp-devenez-devops-en-3-mois/
+modules:
+  - Module 1: Introduction à Linux et Git
+  - Module 2: Conteneurisation avec Docker
+  - Module 3: Gestion des clusters avec Kubernetes
+  - Module 4: Automatisation avec Ansible
+  - Module 5: Pipelines CI/CD avec Jenkins
+  - Module 6: Gestion d'infrastructure avec Terraform
+  - Module 7: CI/CD avec GitLab
+duration_weeks: 12
+language: French
+deprecated: false
