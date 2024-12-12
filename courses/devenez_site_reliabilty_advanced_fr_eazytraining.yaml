@@ -1,0 +1,27 @@
+id: null
+name: Devenez Site Reliability Engineer
+url: https://eazytraining.fr/cours/devenez-site-reliability-engineer/
+duration_hours: 8
+level: Advanced
+objectives:  vous apprendre comment devenir un SRE dans un environnement de type micro-services orchestré par Kubernetes (qui est dorénavant un composant indispensable dans l’univers OpenSource et Cloud Native).
+description: >
+   Il est commun d’entendre que SRE est une implémentation concrète de la culture DevOps.
+    Bonne nouvelle, on parle bien de profil SRE puisque le terme Engineer en anglais fait référence à un ingénieur, donc une personne.
+    Commençons par discerner 5 piliers dans la culture DevOps:
+    - Faciliter la communication dans l’entreprise
+    - Accepter et banaliser les erreurs
+    - Appliquer des changements plus petits mais plus fréquents
+    - Automatiser les tâches les plus chronophages
+    - Relever tous les indicateurs qui pourraient être pertinents
+    Le SRE se présente comme une solution pour implémenter le DevOps dans les métiers d’exploitation (Backup, restauration, Upgrade, Scaling …).
+prerequisites: >
+   avoir de bonnes bases sur Docker (https://eazytraining.fr/cours/introduction-a-docker/)
+   avoir de bonnes bases sur kubernetes (https://eazytraining.fr/cours/kubernetes-les-bases-pour-devops/)
+technologies:
+  - docker
+  - kubernetes
+  - helm
+  - operator
+  - prometheus
+language: French
+deprecated: false
