@@ -1,0 +1,23 @@
+id: null
+name: "TALEND : débutez l'analyse de données avec Talend."
+url: https://eazytraining.fr/cours/talend-debutez-lanalyse-de-donnees-avec-talend/
+duration_hours: 4
+level: Beginner
+objectives: "Transformez, agrégez et visualisez vos données avec Talend."
+description: >
+  De nos jours, toutes les entreprises de tous les secteurs (comme SNCF, EDF, Auchan, Carrefour, LCL Orange …) ne font que produire des données brutes chaque jour et elles ont toutes besoin de traiter ces données afin de les rendre facilement compréhensibles aux décideurs pour l'aide à l'analyse et à la prise de décision.
+  C'est pour répondre à ce besoin qu'existe des solutions informatiques comme « l'Informatique Décisionnelle » ou les « Big Data » qui grâce à des outils bien spécifiques comme TALEND permettent de transformer, agréger et visualiser des données sous forme de rapport ou dashborad par exemple pour des fins décisionnelles.
+  Compte tenu de l'utilité des ETL pour la transformation des données massives, j'ai trouvé nécessaire de vous faire cette formation d'initiation sur l'ETL « Talend Open Studio for data intégration (TOS) » qui est l'un des ETL les plus utilisés sur des projets actuellement en France mais également dans le monde entier.
+  A la fin de cette formation vous serez capable de :
+  1. Mettre en place des tâches d'intégration de données fiables et faciles à maintenir
+  2. Résoudre des problèmes pratiques : extraire des données depuis des bases de données et des fichiers aux formats les plus utilisés
+  3. Transformer et intégrer des données dans des cibles.
+prerequisites: >
+  1. Connaissance des SGBD (Systèmes de Gestion de Base de Données)
+  2. Connaissance du langage SQL (Structured Query Language)
+  3. Connaissance de l'informatique en générale et plus particulièrement de l'informatique décisionnelle
+  4. Notions basique du java
+technologies:
+  - talend
+language: French
+deprecated: false
