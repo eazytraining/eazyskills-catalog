@@ -12,6 +12,8 @@ description: >
 prerequisites: 
  Pour suivre ce cours Cisco, il est conseillé d’avoir une connaissance du calcul en binaire et des connaissances générales dans le monde de l’informatique
 technologies:
-  - Cisco packet
+  - windows
+  - linux
+
 language: French
 deprecated: false
