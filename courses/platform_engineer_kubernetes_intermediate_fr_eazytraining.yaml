@@ -9,6 +9,8 @@ objectives:
     Apprendre à déployer des applications sur Kubernetes en utilisant des pratiques de CI/CD gitops.
     Explorer les concepts de microservices et leur déploiement dans un cluster Kubernetes.
     Gérer la sécurité, la mise à l’échelle et la résilience des applications dans Kubernetes.
+description: >
+  Ce cours est conçu pour les professionnels de l’informatique qui souhaitent se spécialiser en tant que Platform Engineer avec une expertise particulière en Kubernetes. Il couvre les compétences essentielles pour concevoir, déployer et gérer des plateformes cloud basées sur Kubernetes.
 prerequisites: >
    avoir de bonnes bases sur Docker (https://eazytraining.fr/cours/introduction-a-docker/)
 technologies:
