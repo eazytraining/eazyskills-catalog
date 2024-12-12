@@ -1,0 +1,32 @@
+id: null
+name: DevOps Bootcamp
+target_role: DevOps Engineer
+prerequisites: >
+  Have IT backgrounds, as:
+  - DevOps Engineers, 
+  - Software Developers, 
+  - Network Engineers, 
+  - Cloud Engineers, 
+  - Systems Administrators, 
+  - Test Engineers/QA).
+url: https://www.techworld-with-nana.com/devops-bootcamp
+modules:
+  - Module 1: INTRODUCTION TO DEVOPS
+  - Module 2: OPERATING SYSTEMS & LINUX BASICS
+  - Module 3: Version Control with Git
+  - Module 4: Build and Package Manager Tools
+  - Module 5: Cloud & Infrastructure as a Service
+  - Module 6: Artifact Repository Manager with Nexus
+  - Module 7: Containers with Docker
+  - Module 8: Build Automation - CI/CD with Jenkins
+  - Module 9: Cloud Platform - AWS Services
+  - Module 10: Container Orchestration with Kubernetes
+  - Module 11: Kubernetes on AWS - AWS EKS
+  - Module 12: Infrastructure as Code with Terraform
+  - Module 13: Programming with Python
+  - Module 14: Automation with Python
+  - Module 15: Configuration Management with Ansible
+  - Module 16: Monitoring with Prometheus
+duration_weeks: 26
+language: English
+deprecated: false
