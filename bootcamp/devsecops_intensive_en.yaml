@@ -1,0 +1,27 @@
+id: null
+name: DevSecOps Bootcamp
+target_role: DevSecOps
+prerequisites: 
+  Be able to build a complete CI/CD Pipeline
+  Docker
+  Linux
+  AWS Platform
+  GitLab CI/CD
+  Kubernetes
+  Git
+  IaC with Terraform
+url: https://www.techworld-with-nana.com/devsecops-bootcamp
+modules:
+  - Module 1: Security Essentials
+  - Module 2: Introduction to DevSecOps
+  - Module 3: Application Vulnerability Scanning
+  - Module 4: Vulnerability Management and Remediation
+  - Module 5: Vulnerability Scanning for Application Dependencies
+  - Module 6: Build a CD Pipeline
+  - Module 7: Image Scanning - Build Secure Docker Images
+  - Module 8: AWS Cloud Security & Access Management
+  - Module 9: Secure Continuous Deployment & DAST
+  - Module 10: IaC and GitOps for DevSecOps
+duration_weeks: 16
+language: English
+deprecated: false
