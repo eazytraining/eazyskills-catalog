@@ -1,18 +1,18 @@
 id: null
 name: "POWER BI : réalisez vos premiers dashboards professionnels"
-url:  https://eazytraining.fr/cours/power-bi-realisez-vos-premiers-dashboards-professionnels/
+url: https://eazytraining.fr/cours/power-bi-realisez-vos-premiers-dashboards-professionnels/
 duration_hours: 5
 level: Beginner
-objectives:  Réalisez des tableaux de bords professionnels avec Power BI.
+objectives: Réalisez des tableaux de bords professionnels avec Power BI.
 description: >
- Power BI est un ensemble d'outils d'analyse de données qui offre des perspectives inégalées pour votre entreprise. Il permet de visualiser vos données et de partager des insights à travers l'organisation, ou les intégrer dans une application ou un site web. Dans le monde de plus en plus axé sur les données dans lequel nous vivons, savoir comment transformer ces données en informations précieuses est une compétence clé qui peut vous distinguer dans de nombreux domaines professionnels.
- L'objectif de cette formation Power BI sur EazyTraining.fr est de vous fournir une compréhension complète de Power BI et de vous équiper avec les compétences nécessaires pour l'utiliser efficacement.
- À l'issue de cette formation, vous serez capable de :
- 1. Comprendre le rôle de Power BI dans le contexte actuel de la data science et de la business intelligence.
- 2. Connecter Power BI à diverses sources de données et les transformer en un modèle de données efficace.
- 3. Exploiter les capacités de Power BI pour créer des rapports dynamiques et visuellement engageants.
- 4. Préparer et manipuler des données pour une analyse plus efficace.
- 5. Appliquer les concepts appris dans des situations réelles, grâce à une compréhension approfondie de l’outil.
+  Power BI est un ensemble d'outils d'analyse de données qui offre des perspectives inégalées pour votre entreprise. Il permet de visualiser vos données et de partager des insights à travers l'organisation, ou les intégrer dans une application ou un site web. Dans le monde de plus en plus axé sur les données dans lequel nous vivons, savoir comment transformer ces données en informations précieuses est une compétence clé qui peut vous distinguer dans de nombreux domaines professionnels.
+  L'objectif de cette formation Power BI sur EazyTraining.fr est de vous fournir une compréhension complète de Power BI et de vous équiper avec les compétences nécessaires pour l'utiliser efficacement.
+  À l'issue de cette formation, vous serez capable de :
+  1. Comprendre le rôle de Power BI dans le contexte actuel de la data science et de la business intelligence.
+  2. Connecter Power BI à diverses sources de données et les transformer en un modèle de données efficace.
+  3. Exploiter les capacités de Power BI pour créer des rapports dynamiques et visuellement engageants.
+  4. Préparer et manipuler des données pour une analyse plus efficace.
+  5. Appliquer les concepts appris dans des situations réelles, grâce à une compréhension approfondie de l’outil.
 prerequisites: Aucun.
 technologies:
   - power-bi
