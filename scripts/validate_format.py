@@ -51,6 +51,7 @@ ALLOWED_TECHNOLOGIES = {
     "jira",
     # Data tools
     "power-bi", "excel", "power-query", "sql", "snowflake", "teradata", "talend",
+    "tableau", "tableau-desktop",
     # Network tools
     "cisco", "packet-tracer",
 }
