@@ -1,0 +1,15 @@
+id: null
+name: Bootcamp Certification DEVOPS – passez vos certifications DevOps en 02 mois
+target_role: DevOps Engineer
+prerequisites: 
+  Être informaticien ou avoir des connaissances en informatique;
+  Avoir des connaissances en devops.
+url: https://eazytraining.fr/%C3%A9v%C3%A8nement/bootcamp-certification-devops-passez-vos-certifications-devops-en-02-mois/
+modules:
+  - Module 00: AWS Cloud Practitioner (frais de passage de la certification auprès de l’éditeur sont de 90 EUR)
+  - Module 01: Terraform Certifified Associate (frais de passage de la certification auprès de l’éditeur sont de 70.50 dollars)
+  - Module 02: Certified Kubernetes Administrator (frais de passage de la certification auprès de l’éditeur sont de 395 dollars (deuxième essai gratuit en cas d’échec du premier)), concernant les certifications kubernetes, il y a des discounts (remise) allant jusqu’à 30% assez régulièrement.
+
+duration_weeks: 8
+language: French
+deprecated: false
