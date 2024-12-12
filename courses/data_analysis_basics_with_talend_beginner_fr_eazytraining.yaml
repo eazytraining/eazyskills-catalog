@@ -19,5 +19,7 @@ prerequisites: >
   4. Notions basique du java
 technologies:
   - talend
+  - java
+  - sql
 language: French
 deprecated: false
