@@ -14,12 +14,9 @@ description: >
 prerequisites: Aucune expérience préalable avec AWS n’est requise.
 technologies:
   - aws
-  - cloud computing
   - s3
   - ec2
-  - iam
   - rds
-  - cloudformation
 language: fr
 source: eazytraining
 deprecated: false
