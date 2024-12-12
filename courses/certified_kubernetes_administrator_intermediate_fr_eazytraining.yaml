@@ -1,7 +1,7 @@
 id: null
 name: "Devenez Certified Kubernetes Administrator"
 url: https://eazytraining.fr/cours/devenez-certified-kubernetes-administrator/
-duration_hours: 7
+duration_hours: 10
 level: Intermediate
 objectives: Relevez les défis de l'administration d'un cluster Kubernetes.
 description: >
