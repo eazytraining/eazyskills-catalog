@@ -17,5 +17,7 @@ technologies:
   - helm
   - azure
   - gcp
+  - jenkins
+  - jenkins-x
 language: French
 deprecated: false
