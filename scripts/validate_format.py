@@ -15,7 +15,7 @@ ALLOWED_TECHNOLOGIES = {
     # Cloud computing
     "aws", "azure", "gcp", "ibm-cloud", "oracle-cloud", "alibaba-cloud",
     "ec2", "s3", "rds", "eks", "lambda", "azure-vm", "azure-functions",
-    "cloud-run", "firebase", "cloudflare",
+    "cloud-run", "firebase", "cloudflare", "azure-devops",
     # Databases
     "postgresql", "mysql", "mariadb", "sql-server", "oracle-db",
     "mongodb", "cassandra", "dynamodb", "redis", "couchbase", "neo4j",
