@@ -1,0 +1,16 @@
+id: null
+name: Linux Administration et Automatisation
+url: https://eazytraining.fr/cours/linux-administration-et-automatisation/
+duration_hours: 24
+level: Intermediate
+objectives: Maîtrisez l'administration système Linux et apprenez à automatiser vos tâches avec des scripts shell et des outils de configuration.
+description: >
+  Plongez au cœur de l'administration système Linux et développez des compétences avancées en automatisation. Cette formation comprehensive vous permettra de comprendre l'architecture et le fonctionnement interne de Linux, gérer efficacement les utilisateurs, les permissions et les ressources système, écrire des scripts shell pour automatiser les tâches répétitives et de mettre en place des configurations système robustes et reproductibles
+  
+  Idéal pour les administrateurs système, DevOps et développeurs souhaitant approfondir leurs compétences Linux.
+prerequisites: Connaissances de base en ligne de commande Linux et compréhension des concepts système.
+technologies:
+  - linux
+  - ubuntu
+language: French
+deprecated: false

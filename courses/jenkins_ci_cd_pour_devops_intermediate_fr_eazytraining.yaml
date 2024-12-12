@@ -1,0 +1,17 @@
+id: null
+name: Jenkins CI/CD pour DevOps
+url: https://eazytraining.fr/cours/jenkins-ci-cd-pour-devops/
+duration_hours: 4
+level: Intermediate
+objectives: Vous apprendrez à déployer une chaîne d’intégration continue et de déploiement continue. Vous verrez également comment mettre en place du “Pipeline As Code” à l’aide de Jenkinsfile.
+description: >
+  Développer un projet informatique demande des efforts considérables, et des outils sont essentiels pour simplifier le travail de l'équipe.
+  L'automatisation des tâches répétitives, comme la vérification du code, les tests ou le déploiement, améliore la sérénité et la productivité. 
+  Jenkins, une solution open source, permet de gérer ces processus de manière efficace.
+prerequisites: Avoir des connaissances (mais pas obligatoire) en Docker et Git.
+technologies:
+  - jenkins
+  - git
+  - docker
+language: French
+deprecated: false
