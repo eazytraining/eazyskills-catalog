@@ -12,6 +12,5 @@ prerequisites: >
 technologies:
   - docker
   - kubernetes
-  - tekton
 language: French
 deprecated: false
