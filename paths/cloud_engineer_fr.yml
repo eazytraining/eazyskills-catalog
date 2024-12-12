@@ -2,19 +2,19 @@ id: null
 name: Cloud Engineer Path
 target_role: Cloud Engineer
 course_ids:
-  - linux_administration_et_administration_intermediate_fr_eazytraining.yaml
-  - introduction_aux_reseaux_informatiques_avec_cisco_beginner_fr_eazytraining.yaml
-  - aws_beginner_fr_eazytraining.yaml
-  - azure_fundamental_beginner_fr_eazytraining.yaml
-  - devenez_aws_certified_associate_architect_et_sysops_intermediate_fr_eazytraining.yaml
-  - azure_administrator_intermediate_fr_eazytraining.yaml
-  - introduction_a_git_beginner_fr_eazytraining.yaml
-  - terraform_basics_beginner_fr_eazytraining.yaml
-  - terraform_cloud_intermediate_fr_eazytraining.yaml
-  - docker_intro_beginner_fr_eazytraining.yaml
-  - kubernetes_les_bases_intermediate_fr_eazytraining.yaml
-  - aws_pour_devops_intermediate_fr_eazytraining.yaml
-  - azure_devops_intermediate_fr_eazytraining.yaml
+  - courses/linux_administration_et_administration_intermediate_fr_eazytraining.yaml
+  - courses/introduction_aux_reseaux_informatiques_avec_cisco_beginner_fr_eazytraining.yaml
+  - courses/aws_beginner_fr_eazytraining.yaml
+  - courses/courses/azure_fundamental_beginner_fr_eazytraining.yaml
+  - courses/devenez_aws_certified_associate_architect_et_sysops_intermediate_fr_eazytraining.yaml
+  - courses/azure_administrator_intermediate_fr_eazytraining.yaml
+  - courses/introduction_a_git_beginner_fr_eazytraining.yaml
+  - courses/terraform_basics_beginner_fr_eazytraining.yaml
+  - courses/terraform_cloud_intermediate_fr_eazytraining.yaml
+  - courses/docker_intro_beginner_fr_eazytraining.yaml
+  - courses/kubernetes_les_bases_intermediate_fr_eazytraining.yaml
+  - courses/aws_pour_devops_intermediate_fr_eazytraining.yaml
+  - courses/azure_devops_intermediate_fr_eazytraining.yaml
 prerequisites: Connaissances de base en administration des systèmes, des réseaux et Git.
 url: https://eazytraining.fr/parcours-cloud/
 language: French
