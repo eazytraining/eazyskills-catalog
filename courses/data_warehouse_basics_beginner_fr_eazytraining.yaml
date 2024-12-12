@@ -1,0 +1,26 @@
+id: null
+name: "Entrepôts de données : débutez dans la data."
+url: https://eazytraining.fr/cours/introduction-a-sql-debutez-dans-la-data/
+duration_hours: 1
+level: Beginner
+objectives: "Apprenez à créer et à gérer efficacement un entrepôt de données."
+description: >
+  L'entrepôt de données ou data warehouse est une base de données centralisée qui est spécialement conçue pour stocker et gérer de grandes quantités de données provenant de différentes sources de l'entreprise.
+  Son objectif est de fournir un environnement unique pour stocker des données qui peuvent être utilisées pour des analyses, des rapports et des prises de décision.  
+  Au cours de cette formation, nous allons explorer les concepts clés qui sous-tendent la création et la gestion d'un entrepôt de données efficace.  
+  Que vous soyez un débutant ou un expert en matière de gestion de données, ce cours vous donnera une solide base théorique pour comprendre les principes clés du data warehouse et les meilleures pratiques pour le mettre en œuvre dans votre organisation.
+  A la fin de cette formation vous serez capable de :
+  1. Comprendre les principes fondamentaux du data warehouse et son rôle dans l'analyse de données
+  2. Comprendre l'importance d'un data warehouse au sein d'une entreprise
+  3. Comprendre les caractéristiques d'un data warehouse
+  4. Comprendre la structure de stockage de données dans un système décisionnel
+  5. Comprendre les notions de systèmes / données opérationnelles , décisionnelles  
+prerequisites: Aucune.
+technologies:
+  - hadoop
+  - postgresql
+  - dynamodb
+  - teradata
+  - snowflake
+language: French
+deprecated: false
