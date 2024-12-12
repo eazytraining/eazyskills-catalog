@@ -19,8 +19,8 @@ course_ids:
  - courses/kubernetes_advanced_fr_eazytraining.yaml
  - courses/tekton_advanced_fr_eazytraining.yaml
 prerequisites:
- - Avant d’aborder le DevOps, vous devez absolument maitriser les notions de bases sur LINUX et GIT
- - Connaissances générales en développement et linux
+ Avant d’aborder le DevOps, vous devez absolument maitriser les notions de bases sur LINUX et GIT
+ Connaissances générales en développement et linux
 url: https://eazytraining.fr/parcours-devops/
 language: French
 deprecated: false
