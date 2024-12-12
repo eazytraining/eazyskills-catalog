@@ -15,7 +15,7 @@ ALLOWED_TECHNOLOGIES = {
     # Cloud computing
     "aws", "azure", "gcp", "ibm-cloud", "oracle-cloud", "alibaba-cloud",
     "ec2", "s3", "rds", "eks", "lambda", "azure-vm", "azure-functions",
-    "cloud-run", "firebase", "cloudflare",
+    "cloud-run", "firebase", "cloudflare", "azure-devops",
     # Databases
     "postgresql", "mysql", "mariadb", "sql-server", "oracle-db",
     "mongodb", "cassandra", "dynamodb", "redis", "couchbase", "neo4j",
@@ -23,6 +23,7 @@ ALLOWED_TECHNOLOGIES = {
     # DevOps and infrastructure
     "terraform", "ansible", "chef", "puppet", "packer", "vault", "consul",
     "jenkins", "gitlab-ci", "github-actions", "spinnaker", "argo-cd", "flux",
+    "jenkins-x", "argo-cd",
     # Security
     "nmap", "wireshark", "burp-suite", "metasploit", "nessus",
     "kali-linux", "trivy", "fail2ban",
@@ -43,7 +44,15 @@ ALLOWED_TECHNOLOGIES = {
     "redhat", "alpine",
     # Versioning and collaboration tools
     "git", "github", "gitlab", "bitbucket", "mercurial", "svn", "jira",
-    "trello", "confluence", "slack", "teams"
+    "trello", "confluence", "slack", "teams",
+    # Software testing tools
+    "postman", "xray",
+    # Management tools
+    "jira",
+    # Data tools
+    "power-bi", "excel", "power-query", "sql", "snowflake", "teradata", "talend",
+    # Network tools
+    "cisco", "packet-tracer",
 }
 
 def validate_technologies(technologies):

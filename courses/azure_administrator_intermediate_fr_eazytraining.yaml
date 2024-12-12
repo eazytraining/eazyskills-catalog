@@ -1,0 +1,22 @@
+id: null
+name: Préparez la certification Azure AZ-104 Devenez Microsoft Certifie
+url: https://eazytraining.fr/cours/preparez-la-certification-azure-az-104-devenez-microsoft-certified-azure-administrator/
+duration_hours: 15
+level: Intermediate
+objectives: Maîtriser l’administration de Microsoft Azure et préparer l’examen Azure Administrator Associate AZ-104.
+description: >
+  Microsoft Azure est un ensemble de services cloud en constante expansion pour aider votre organisation à relever les défis de votre entreprise
+  L’exam AZ-104 Microsoft Azure Administrator votre aptitude à gérer une infrastructure et des ressources au sein d’azure .
+  Les candidats à l’examen AZ-104 Microsoft Azure Administrator doivent avoir une expérience pratique dans l’administration d’Azure, ainsi qu’une solide compréhension des services Azure de base, des charges de travail Azure, de la sécurité et de la gouvernance. 
+  En outre, L’administrateur Microsoft Azure doit avoir aussi une expérience dans l’utilisation de PowerShell, AzureCLI, du portail Azure et des modèles Azure Resource Manager.
+prerequisites: Avoir suivi le cours AZURE Fudamentals
+  Avoir une expérience pratique dans l’administration d’Azure
+  Avoir de solides connaissances des services fondamentaux d’Azure, des charges de travail d’Azure, de la sécurité et de la gouvernance.
+  Maîtrise de PowerShell, Azure CLI, le portail Azure, et les modèles Azure Resource Manager
+technologies:
+  - azure
+  - linux
+  - azure-vm
+  - docker
+language: French
+deprecated: false

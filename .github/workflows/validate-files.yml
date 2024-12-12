@@ -17,12 +17,25 @@ jobs:
           fetch-depth: 0  # Ensure we fetch the full history to detect changes
 
       # Step 2: Get list of modified files
-      - name: Get Modified Files
-        id: modified_files
-        run: |
-          MODIFIED_FILES=$(git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | grep '\.yaml$' || echo "")
-          echo "files=$MODIFIED_FILES" >> $GITHUB_ENV
+      - name: Get all changed markdown files
+        id: changed-markdown-files
+        uses: tj-actions/changed-files@v45
+        with:
+          # Avoid using single or double quotes for multiline patterns
+          files: |
+            courses/**.yaml
+            paths/**.yaml
+            bootcamps/**.yaml
 
+      - name: List all changed files markdown files
+        if: steps.changed-markdown-files.outputs.any_changed == 'true'
+        env:
+          ALL_CHANGED_FILES: ${{ steps.changed-markdown-files.outputs.all_changed_files }}
+        run: |
+          for file in ${ALL_CHANGED_FILES}; do
+            echo "$file was changed"
+          done
+          
       # Step 3: Set up Python
       - name: Set Up Python
         uses: actions/setup-python@v3
@@ -37,18 +50,24 @@ jobs:
 
       # Step 5: Validate Naming Convention
       - name: Validate Naming Convention
+        if: steps.changed-markdown-files.outputs.any_changed == 'true'
+        env:
+          ALL_CHANGED_FILES: ${{ steps.changed-markdown-files.outputs.all_changed_files }}
         run: |
-          if [ -z "$files" ]; then
+          if [ -z "$ALL_CHANGED_FILES" ]; then
             echo "No YAML files modified."
           else
-            python scripts/validate_naming.py $files
+            python scripts/validate_naming.py $ALL_CHANGED_FILES
           fi
 
       # Step 6: Validate File Content
       - name: Validate File Content
+        if: steps.changed-markdown-files.outputs.any_changed == 'true'
+        env:
+          ALL_CHANGED_FILES: ${{ steps.changed-markdown-files.outputs.all_changed_files }}
         run: |
-          if [ -z "$files" ]; then
+          if [ -z "$ALL_CHANGED_FILES" ]; then
             echo "No YAML files modified."
           else
-            python scripts/validate_format.py $files
+            python scripts/validate_format.py $ALL_CHANGED_FILES
           fi
