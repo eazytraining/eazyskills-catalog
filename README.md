@@ -67,9 +67,9 @@ target_role: Full-Stack Developer
 prerequisites: Basic programming knowledge.
 url: https://example.com/fullstack-bootcamp
 modules:
-  - Module 1: HTML & CSS Basics
-  - Module 2: JavaScript and React
-  - Module 3: Backend with Node.js
+  - Module 1 - HTML & CSS Basics
+  - Module 2 - JavaScript and React
+  - Module 3 - Backend with Node.js
 duration_weeks: 12
 language: English
 deprecated: false
