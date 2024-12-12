@@ -16,19 +16,15 @@ objectives:
     Solutions Architect Associate.
     AWS SysOps Administrator Associate
 description: >
-  Ce cours complet sur AWS Cloud Engineer vous guide pas à pas à travers l'univers du cloud computing avec AWS.
-  Vous apprendrez à concevoir, implémenter et maintenir des infrastructures cloud hautement disponibles,
-  sécurisées et évolutives, tout en maîtrisant les services AWS incontournables tels que EC2, S3, VPC, RDS,
-  Lambda, CloudFormation et bien d'autres..
+  Ce cours complet sur AWS Cloud Engineer vous guide pas à pas à travers l’univers du cloud computing avec Amazon Web Services (AWS). Conçu pour les professionnels IT, les développeurs, les administrateurs systèmes, et ceux souhaitant maîtriser les technologies AWS, ce programme couvre les aspects essentiels pour devenir un professionel en ingénierie cloud sur AWS.
+  Vous apprendrez à concevoir, implémenter, et maintenir des infrastructures cloud hautement disponibles, sécurisées et évolutives, tout en maîtrisant les services AWS incontournables tels que EC2, S3, VPC, RDS, Lambda, CloudFormation, et bien plus encore. Que vous soyez débutant ou intermédiaire, ce cours offre une approche pratique et concrète, permettant d’acquérir rapidement des compétences applicables directement en entreprise.
 prerequisites: 
   Une connaissance de base des réseaux et systèmes informatiques est recommandée.
   Aucun prérequis spécifique en aws n'est nécessaire, ce cours couvre tout de a à z.
 technologies:
   - ec2 
   - s3
-  - lambda 
-  - iam
+  - lambda
   - rds
-  - eks
 language: French
 deprecated: false
