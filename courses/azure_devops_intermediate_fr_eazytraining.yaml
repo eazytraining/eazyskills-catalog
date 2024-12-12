@@ -2,7 +2,7 @@ id: null
 name: Azure devops - mettez en place votre cicd dans le cloud
 url: https://eazytraining.fr/cours/azure-devops-mettez-en-place-votre-cicd-dans-le-cloud/
 duration_hours: 17
-level: Beginner
+level: Intermediate
 objectives: Cette formation azure devops a pour objectif de vous donner les fondamentaux sur cet environnement.
 description: >
   Ce cours offre une introduction complète à Docker, une plateforme puissante pour construire, déployer et exécuter des applications distribuées. Les étudiants apprendront à utiliser Docker pour rationaliser les processus de développement, de test et de déploiement. Les sujets abordés comprennent
@@ -20,6 +20,7 @@ prerequisites:
   - Kubernetes (https://eazytraining.fr/cours/kubernetes-les-bases-pour-devops/)
   - Git (https://eazytraining.fr/cours/introduction-a-git/)
 technologies:
-  - Azure devops
+  - azure
+  - azure-devops
 language: French
 deprecated: false
