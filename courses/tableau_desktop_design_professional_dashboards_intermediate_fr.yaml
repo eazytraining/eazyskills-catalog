@@ -1,0 +1,16 @@
+id: null
+name: "Tableau Desktop : Réalisez des dashboards professionnels"
+url: https://eazytraining.fr/cours/tableau-desktop-realisez-des-dashboards-professionnels/
+duration_hours: 7
+level: Intermediate
+objectives: Créez des tablaux de bords professionnels avec Tableau Desktop.
+description: >
+  Tableau Desktop est une puissante solution de visualisation et d'analyse de données qui permet aux utilisateurs de découvrir, de comprendre et de communiquer des insights significatifs à partir de leurs données. Avec son interface intuitive et ses fonctionnalités avancées, Tableau Desktop est l'outil idéal pour explorer les données, créer des visualisations interactives et prendre des décisions éclairées.
+  Avec Tableau Desktop, vous pouvez facilement importer des données provenant de différentes sources, telles que des feuilles de calcul, des bases de données, des fichiers plats ou même des sources de données en temps réel. L'outil offre une grande flexibilité en matière de connectivité et de préparation des données, ce qui vous permet de manipuler et de nettoyer vos données pour les rendre exploitables.
+  Tableau Desktop permet également de créer des calculs analytiques complexes et de les visualiser sous différents types de graphisme : cartographie, axe double, diagramme de Gantt. Ce cours vous permettra de prendre en main les fonctions et outils pour rendre vos tableaux de bord encore plus riches.
+prerequisites: Connaissances de base sur Excel.
+technologies:
+  - tableau-desktop
+  - excel
+language: French
+deprecated: false
