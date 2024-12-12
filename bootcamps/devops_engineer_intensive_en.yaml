@@ -1,5 +1,5 @@
 id: null
-name: DevOps Bootcamp
+name: DevOps Professionals Bootcamp
 target_role: DevOps Engineer
 prerequisites: >
   Have IT backgrounds, as:
@@ -11,8 +11,8 @@ prerequisites: >
   - Test Engineers/QA).
 url: https://www.techworld-with-nana.com/devops-bootcamp
 modules:
-  - Module 1: INTRODUCTION TO DEVOPS
-  - Module 2: OPERATING SYSTEMS & LINUX BASICS
+  - Module 1: Introduction to DevOps
+  - Module 2: Operating Systems & Linux Basics
   - Module 3: Version Control with Git
   - Module 4: Build and Package Manager Tools
   - Module 5: Cloud & Infrastructure as a Service
