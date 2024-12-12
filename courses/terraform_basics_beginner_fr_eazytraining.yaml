@@ -1,7 +1,7 @@
 id: null
 name: Les bases de Terraform pour DevOps
 url: https://eazytraining.fr/cours/terraform-les-bases-pour-devops/
-duration_hours: 5
+duration_hours: 10
 level: Beginner
 objectives: Apprenez les bases de Terraform pour gérer l'infrastructure efficacement.
 description: >
