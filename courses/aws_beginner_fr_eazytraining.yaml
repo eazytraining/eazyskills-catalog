@@ -17,6 +17,6 @@ technologies:
   - s3
   - ec2
   - rds
-language: fr
+language: French
 source: eazytraining
 deprecated: false
