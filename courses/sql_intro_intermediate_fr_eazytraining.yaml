@@ -1,0 +1,21 @@
+id: null
+name: "Introduction à SQL : débutez dans la data."
+url: https://eazytraining.fr/cours/introduction-a-sql-debutez-dans-la-data/
+duration_hours: 2
+level: Intermediate
+objectives: "Apprenez les bases du langage SQL."
+description: >
+  Cette formation s'adresse aux développeurs débutants et aux non-informaticiens qui sont amenés à travailler avec un système de gestion de base de données relationnelles (SGBDR).
+  L'objectif de cette formation est de fournir les clés de départ permettant d'être autonome dans la manipulation d'une base de données de type relationnel.
+  Chaque SGBDR a développé ses propres extensions à la norme SQL, ou a ajouté des fonctions spécifiques.
+  Néanmoins, en maîtrisant les bases du langage SQL, on peut répondre à la majorité des besoins dans l'utilisation d'une base de données relationnelle.
+  A la fin de cette formation vous serez capable de :
+  1. Manipuler les ordres de base les plus utilisés du langage SQL
+  2. Interroger des bases de données (PostgreSQL) à l'aide des requêtes SQL
+  3. Créer et manipuler les tables puis gérer les données dans ces tables
+prerequisites: Aucune.
+technologies:
+  - sql
+  - postgresql
+language: French
+deprecated: false
