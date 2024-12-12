@@ -43,7 +43,13 @@ ALLOWED_TECHNOLOGIES = {
     "redhat", "alpine",
     # Versioning and collaboration tools
     "git", "github", "gitlab", "bitbucket", "mercurial", "svn", "jira",
-    "trello", "confluence", "slack", "teams"
+    "trello", "confluence", "slack", "teams",
+    # Software testing tools
+    "postman", "xray",
+    # Management tools
+    "jira",
+    # Data tools
+    "power-bi", "excel", "power-query", "sql", "snowflake", "teradata", "talend",
 }
 
 def validate_technologies(technologies):
