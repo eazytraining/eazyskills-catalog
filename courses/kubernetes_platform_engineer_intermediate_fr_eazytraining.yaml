@@ -1,6 +1,6 @@
 id: null
 name: "Devenez Platform Engineer Kubernetes."
-url: https://eazytraining.fr/cours/devenez-site-reliability-engineer/
+url: https://eazytraining.fr/cours/platform-engineer-kubernetes/
 duration_hours: 4
 level: Intermediate
 objectives: vous apprendre comment devenir un SRE dans un environnement de type micro-services orchestré par Kubernetes (qui est dorénavant un composant indispensable dans l'univers OpenSource et Cloud Native).
