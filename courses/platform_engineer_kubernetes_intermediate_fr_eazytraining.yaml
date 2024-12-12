@@ -1,0 +1,18 @@
+id: null
+name: Platform Engineer Kubernetes
+url: https://eazytraining.fr/cours/platform-engineer-kubernetes/
+duration_hours: 4
+level: Intermediate
+objectives:  
+    Comprendre le rôle d’un Platform Engineer dans un environnement Kubernetes et DevOps.
+    Maîtriser l’architecture et le fonctionnement de Kubernetes pour orchestrer des conteneurs.
+    Apprendre à déployer des applications sur Kubernetes en utilisant des pratiques de CI/CD gitops.
+    Explorer les concepts de microservices et leur déploiement dans un cluster Kubernetes.
+    Gérer la sécurité, la mise à l’échelle et la résilience des applications dans Kubernetes.
+prerequisites: >
+   avoir de bonnes bases sur Docker (https://eazytraining.fr/cours/introduction-a-docker/)
+technologies:
+  - kubernetes
+  - helm
+language: French
+deprecated: false
