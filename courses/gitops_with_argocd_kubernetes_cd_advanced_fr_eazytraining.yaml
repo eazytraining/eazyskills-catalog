@@ -1,0 +1,27 @@
+id: null
+name: "GitOps avec ArgoCD : Continuous Delivery on Kubernetes."
+url: https://eazytraining.fr/cours/gitops-avec-argocd-continuous-delivery-on-kubernetes/
+duration_hours: 4
+level: Advanced
+objectives: "Apprenez à garantir un déploiement continu intelligent avec ArgoCD."
+description: >
+  L'automatisation représente un enjeu majeur dans la digitalisation des entreprises. La méthodologie DevOps encourage dans le sens la mise en place de chaîne d'intégration continue et de déploiement continu afin de produire et livrer nos solutions IT beaucoup plus facilement, plus rapidement tout en restant agile fasse aux changements. 
+  Néanmoins, un problème subsistait encore : Comment garantir la cohérence entre l'état désiré de notre système d'information et l'état live (réel) ? Car en effet, nous savons automatiser le déploiement des applications à l'aide de jenkins, mais qu'est ce qui nous garanti à un moment donné que ce qui est en prod reflète bien nos souhaits ? C'est à cet endroit que le GitOps entre en jeu.
+  Avec la culture GitOps, on a la possibilité de piloter notre SI (Infra + Software) grâce à du code (hébergé sur un git par exemple). Cette méthodologie prône la règle suivante : La source de l'information vraie c'est git et uniquement git. Ainsi il nous permet de mettre en place du Continuous Deployment pour nos applications et infrastructures Cloud Native.
+  Cette pratique n'est pas nouvelle en réalité, car vous aviez déjà des outils qui existaient tels que terraform + git + ci (Jenkins, gitlab-ci, github action) qui nous permettent d'implémenter ce genre de solution. Terraform est un très bel exemple d'implémentation du GitOps car il a cette capacité à auditer la plateforme avant d'appliquer les changements. Les pipelines traditionnels appliquent tout simplement les mise à jour sans pour autant déterminer ce qu'il y a déjà et n'évaluent pas l'impact de la mise à jour sur l'infra ; chose que le GitOps nous permet de faire.
+  Nous vivons dans le monde de l'IT une croissance exponentielle des micro-services, et pour les déployer à l'échelle on utilise des outils tels que Kubernetes. C'est pour cette raison que dans le cadre de cette formation nous apprendrons à faire du GitOps sur un cluster kubernetes. Et l'outil qui nous permettra de mettre cette culture en place est ArgoCD de ArgoProj.
+prerequisites: >
+  1. Avoir de bonnes bases sur Docker (https://eazytraining.fr/cours/introduction-a-docker/)
+  2. Avoir de bonnes bases sur DevOps avec Jenkins Pipeline (https://eazytraining.fr/cours/jenkins-ci-cd-pour-devops/)
+  3. Avoir de bonnes bases sur Kubernetes (https://eazytraining.fr/cours/kubernetes-les-bases-pour-devops/)
+  4. Avoir les bases sur git (https://eazytraining.fr/cours/introduction-a-git/)
+technologies:
+  - kubernetes
+  - docker
+  - jenkins
+  - argo-cd
+  - git
+  - grafana
+  - azure-devops
+language: French
+deprecated: false
