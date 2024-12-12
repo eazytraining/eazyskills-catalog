@@ -1,0 +1,26 @@
+id: null
+name: DevOps Engineer Path
+target_role: DevOps Engineer
+course_ids:
+ - courses/docker_intro_beginner_fr_eazytraining.yaml
+ - courses/introduction_a_git_beginner_fr_eazytraining.yaml
+ - courses/linux_administration_et_administration_intermediate_fr_eazytraining.yaml
+ - courses/kubernetes_les_bases_intermediate_fr_eazytraining.yaml
+ - courses/terraform_basics_beginner_fr_eazytraining.yaml
+ - courses/aws_beginner_fr_eazytraining.yaml
+ - courses/azure_fundamental_beginner_fr_eazytraining.yaml
+ - courses/aws_pour_devops_intermediate_fr_eazytraining.yaml
+ - courses/ansible_pour_devops_intermediate_fr_eazytraining.yaml
+ - courses/gitlab_ci_cd_pour_devops_intermediate_fr_eazytraining.yaml
+ - courses/jenkins_ci_cd_pour_devops_intermediate_fr_eazytraining.yaml
+ - courses/openshift_base_pour_debutant_intermediate_fr_eazytraining.yaml
+ - courses/terraform_passer_certification_hashicorp_terraform_associate_intermediate_fr_eazytraining.yaml
+ - courses/jenkins-x_advanced_fr_eazytraining.yaml
+ - courses/kubernetes_advanced_fr_eazytraining.yaml
+ - courses/tekton_advanced_fr_eazytraining.yaml
+prerequisites:
+ - Avant d’aborder le DevOps, vous devez absolument maitriser les notions de bases sur LINUX et GIT
+ - Connaissances générales en développement et linux
+url: https://eazytraining.fr/parcours-devops/
+language: French
+deprecated: false
