@@ -3,7 +3,7 @@ name: Platform Engineer Kubernetes Bootcamp
 target_role: Platform Engineer
 prerequisites:
   - Avoir les bases en DevOps (Jenkins, Docker, Kubernetes)
-  - Connaitre l’écosystème kubernetes (helm, operateur, argoCD)
+  - Connaitre l écosystème kubernetes (helm, operateur, argoCD)
   - Avoir les bases en Cloud (AWS)
   - Etre familier des microservices (API, Endpoint, GRPC, stateful/stateless, scaling).
 url: https://eazytraining.fr/%C3%A9v%C3%A9nement/bootcamp-platform-engineer-kubernetes/
