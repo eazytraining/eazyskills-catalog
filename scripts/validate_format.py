@@ -23,7 +23,7 @@ ALLOWED_TECHNOLOGIES = {
     # DevOps and infrastructure
     "terraform", "ansible", "chef", "puppet", "packer", "vault", "consul",
     "jenkins", "gitlab-ci", "github-actions", "spinnaker", "argo-cd", "flux",
-    "jenkins-x", "argo-cd", "crossplane", "vcluster", "dapr",
+    "jenkins-x", "argo-cd", "crossplane", "vcluster", "dapr", "sonarcloud",
     # Security
     "nmap", "wireshark", "burp-suite", "metasploit", "nessus",
     "kali-linux", "trivy", "fail2ban",
