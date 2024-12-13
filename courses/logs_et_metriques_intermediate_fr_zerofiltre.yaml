@@ -1,0 +1,19 @@
+id: null
+name: Exploitez les mines d'or que sont les logs et les métriques.
+url: https://zerofiltre.tech/cours/33-exploitez-les-mines-d-or-que-sont-les-logs-et-les-métriques/%3F
+duration_hours: 5
+level: Intermediate
+objectives: Cette exploitation intelligente des logs et des métriques constitue un atout majeur pour la gestion efficace de votre système informatique..
+description: >
+  Les logs et les métriques sont des joyaux de données qui offrent des avantages pour la gestion et l'optimisation des performances de votre système informatique. Voici pourquoi leur exploitation est cruciale :
+  Amélioration de la disponibilité et de la performance : Les logs permettent une détection rapide des problèmes et une résolution efficace des incidents, tandis que les métriques offrent des indicateurs précieux sur la santé et les performances de vos applications et de votre infrastructure.
+  Optimisation des coûts et des ressources : L'analyse des logs et des métriques permet d'identifier les inefficacités dans l'utilisation des ressources informatiques, réduisant ainsi les coûts tout en améliorant les performances.
+  Renforcement de la sécurité : Les logs sont une source d'informations vitale pour la détection des activités malveillantes ou suspectes, renforçant ainsi la posture de sécurité de votre infrastructure.
+prerequisites: Avoir des connaissances de base sur le developpement informatique.
+technologies:
+  - prometheus
+  - grafana
+  - loki
+  - alertmanager
+language: French
+deprecated: false
