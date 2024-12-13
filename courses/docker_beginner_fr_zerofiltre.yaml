@@ -1,0 +1,17 @@
+id: null
+name: Docker 
+url: https://zerofiltre.tech/cours/30-déployez-votre-application-dans-tout-environnement-gr-ce-à-docker
+duration_hours: 5
+level: Beginner
+objectives: Apprendre les bases de Docker pour conteneuriser les applications.
+description: >
+  Docker garantit que les applications fonctionnent de manière identique dans tous les environnements, éliminant les problèmes de compatibilité et "ça marche sur ma machine 😅".
+  Rapidité de déploiement et efficacité - Les conteneurs Docker se lancent rapidement, utilisent moins de ressources que les machines virtuelles et facilitent les processus de CI/CD pour des déploiements agiles.
+  Isolation et Gestion des dépendances - Docker isole les applications et leurs dépendances dans des conteneurs distincts, permettant une gestion facile des multiples versions de dépendances sans conflits.
+  Écosystème riche et Sécurité - L'écosystème Docker offre un vaste choix d'images prêtes à l'emploi, tandis que l'isolation des conteneurs contribue à renforcer la sécurité des applications.
+prerequisites: Basic programming knowledge.
+technologies:
+  - docker
+  - containerd
+language: French
+deprecated: false
