@@ -29,7 +29,7 @@ ALLOWED_TECHNOLOGIES = {
     "kali-linux", "trivy", "fail2ban",
     # Monitoring and observability
     "grafana", "datadog", "splunk", "new-relic", "elasticsearch", "kibana",
-    "fluentd", "opentelemetry", "jaeger",
+    "fluentd", "opentelemetry", "jaeger", "loki", "alertmanager",
     # Web development
     "react", "angular", "vue", "svelte", "nextjs", "nuxtjs", "tailwindcss",
     "bootstrap", "material-ui", "express", "django", "flask", "fastapi",
