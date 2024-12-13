@@ -1,0 +1,13 @@
+id: null
+name: Introduction Full Cycle Dev/Ops
+url: https://zerofiltre.tech/cours/3-full-cycle-dev-ops-élevez-le-développement-au-delà-du-build
+duration_hours: 1
+level: Intermediate
+objectives: Acquérir les pratiques DevOps afin transformer votre approche du développement logiciel 
+description: >
+  Rejoignez ce parcours Full cycle Dev/Ops et intégrez sans heurts les phases de build(Dev) et run(Ops), pour des applications robustes, évolutives et prêtes pour le marché.
+prerequisites: Basic programming knowledge.
+technologies:
+
+language: French
+deprecated: false
