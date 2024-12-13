@@ -5,9 +5,9 @@ duration_hours: 5
 level: Intermediate
 objectives: Apprendre à ecrire des tests logiciels, à prendre le controle sur la qualité de code.
 description: >
-  Le but d’un logiciel est de satisfaire au maximum le besoin du client. Un code de qualité supérieure participe à ce but en assurant que l'application fonctionne comme prévu par le client.
-  Le logiciel induit des coûts de maintenance non négligeables. Un code de qualité supérieure est plus facile à maintenir et à étendre. Cela réduit significativement le temps et les ressources nécessaires pour gérer le code à long terme, permettant ainsi d'allouer ces ressources à l'innovation plutôt qu'à la correction.
-  Un code de qualité suit des standards clairs, rendant le travail en équipe plus fluide. Les nouveaux développeurs peuvent comprendre et contribuer au projet plus facilement, ce qui accélère le développement et favorise l'innovation.
+  Le but d un logiciel est de satisfaire au maximum le besoin du client. Un code de qualité supérieure participe à ce but en assurant que l application fonctionne comme prévu par le client.
+  Le logiciel induit des coûts de maintenance non négligeables. Un code de qualité supérieure est plus facile à maintenir et à étendre. Cela réduit significativement le temps et les ressources nécessaires pour gérer le code à long terme, permettant ainsi d allouer ces ressources à l innovation plutôt qu à la correction.
+  Un code de qualité suit des standards clairs, rendant le travail en équipe plus fluide. Les nouveaux développeurs peuvent comprendre et contribuer au projet plus facilement, ce qui accélère le développement et favorise l innovation.
 prerequisites: Basic programming knowledge.
 technologies:
   - sonarcloud
