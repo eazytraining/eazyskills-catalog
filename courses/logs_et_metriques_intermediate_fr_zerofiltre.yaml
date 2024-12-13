@@ -14,6 +14,6 @@ technologies:
   - prometheus
   - grafana
   - loki
-  - altermanager
+  - alertmanager
 language: French
 deprecated: false
