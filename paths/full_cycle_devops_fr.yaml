@@ -2,18 +2,15 @@ id: null
 name: Parcours Full Cycle Dev/Ops
 target_role: DevOps Engineer
 course_ids:
-  - courses/introduction_a_git_beginner_fr_eazytraining.yaml
-  - courses/docker_intro_beginner_fr_eazytraining.yaml
-  - courses/jenkins_ci_cd_pour_devops_intermediate_fr_eazytraining.yaml
-  - courses/jenkins_x_realiser_des_pipelines_cloud_native_advanced_fr_eazytraining.yaml
-  - courses/gitlab_ci_cd_pour_devops_intermediate_fr_eazytraining.yaml
-  - courses/kubernetes_les_bases_intermediate_fr_eazytraining.yaml
-  - courses/kubernetes_security_cks_advanced_fr_eazytraining.yaml
-  - courses/terraform_basics_beginner_fr_eazytraining.yaml
-  - courses/terraform_cloud_intermediate_fr_eazytraining.yaml
-  - courses/terraform_passer_certification_hashicorp_terraform_associate_intermediate_fr_eazytraining.yaml
-  - courses/aws_pour_devops_intermediate_fr_eazytraining.yaml
-  - courses/azure_devops_intermediate_fr_eazytraining.yaml
+  - courses/intro_full_cycle_devops_intermediate_fr_zerofiltre.yaml
+  - courses/convaincre_une_entreprise_au_devops_beginner_fr_zerofiltre.yaml
+  - courses/git_intermediate_fr_zerofiltre.yaml
+  - courses/test_et_qualite_du_code_intermediate_fr_zerofiltre.yaml
+  - courses/docker_beginner_fr_zerofiltre.yaml
+  - courses/ci_cd_intermediate_fr_zerofiltre.yaml
+  - courses/kubernetes_beginner_fr_zerofiltre.yaml
+  - courses/logs_et_metriques_intermediate_fr_zerofiltre.yaml
+  - courses/infra_config_as_code_intermediate_fr_zerofiltre.yaml
 prerequisites: Avoir de bonnes bases en developpement informatique.
 url: https://zerofiltre.tech/cours/3-full-cycle-dev-ops-élevez-le-développement-au-delà-du-build
 language: French
