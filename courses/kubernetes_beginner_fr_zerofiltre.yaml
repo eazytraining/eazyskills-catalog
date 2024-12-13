@@ -1,0 +1,20 @@
+id: null
+name: Orchestrez le doigt dans le nez, vos applications sur le cloud avec Kubernetes
+url: https://zerofiltre.tech/cours/32-orchestrez-le-doigt-dans-le-nez-vos-applications-sur-le-cloud-avec-kubernetes
+duration_hours: 5
+level: Beginner
+objectives: Apprendre les bases de l'orchestration à l'aide de Kubernetes.
+description: >
+  Il est vrai que Kubernetes offres de nombreux avantages techniques que nous démontrerons tout au long de ce parcours à savoir la réduction drastique de la complexité quant à la configuration de l'automatisation, la scalabilité, la flexibilité et la haute disponibilité des applications.
+  Cependant, l'apport de Kubernetes à votre carrière professionnelle est l'élément sur le quel je souhaite attirer votre attention.
+  Quasiment toutes les fiches de poste aujourd’hui contiennent le mot clé Kubernetes.
+  Si vous ne savez pas utiliser Kubernetes alors vous passez à côté de pas mal d'offres.
+  Avec la popularité croissante des microservices et du Cloud computing, savoir déployer et gérer des applications dans des environnements conteneurisés est essentiel. Kubernetes est au cœur de ces architectures, rendant cette compétence cruciale et très recherchée.
+  La compétence en Kubernetes est transférable entre les industries et les rôles technologiques, offrant une grande flexibilité de carrière. Que vous souhaitiez travailler dans le développement logiciel, le système, le réseau ou la sécurité, la maîtrise de Kubernetes peut enrichir votre profil professionnel.
+  La maîtrise de Kubernetes témoigne de votre engagement envers le développement professionnel et votre capacité à rester à la pointe des technologies émergentes.
+prerequisites: docker, git.
+technologies:
+  - helm
+  - kubernetes
+language: French
+deprecated: false
