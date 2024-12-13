@@ -24,10 +24,10 @@ description: >
   disposition des centaines d’extensions. En d’autres termes, si Devops ne prend pas en charge une fonctionnalité dont vous avez besoin, vous trouverez probablement une extension qui s’en occupe.
   Pour résumer, Azure DevOps est avant tout une plateforme sécurisée, collaborative et ouverte dont le champs des possibilités offertes est vaste.
 prerequisites:
-  - Docker (https://eazytraining.fr/cours/introduction-a-docker/)
-  - Azure cloud (https://eazytraining.fr/cours/preparez-la-certification-azure-fundamental-az-900/)
-  - Kubernetes (https://eazytraining.fr/cours/kubernetes-les-bases-pour-devops/)
-  - Git (https://eazytraining.fr/cours/introduction-a-git/)
+   Docker (https://eazytraining.fr/cours/introduction-a-docker/)
+   Azure cloud (https://eazytraining.fr/cours/preparez-la-certification-azure-fundamental-az-900/)
+   Kubernetes (https://eazytraining.fr/cours/kubernetes-les-bases-pour-devops/)
+   Git (https://eazytraining.fr/cours/introduction-a-git/)
 technologies:
   - azure
   - azure-devops

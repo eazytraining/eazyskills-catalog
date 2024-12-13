@@ -1,7 +1,11 @@
-
 # **EazySkills Data Repository**
 This repository serves as the central source of truth for managing the data powering the EazySkills platform. It contains structured files defining **courses**, **paths**, and **bootcamps**, which are used to populate the platform's database. Contributions to this repository allow for seamless updates and management of the learning content without direct access to the database.
-## **Repository Structure**
+
+**Avoid french character**
+Please if you want to use <'> (apostrophe in french) please use < >(space) instead
+So if you want to write <l'initialisation> please use < l initiatilisation > instead
+
+ **Repository Structure**
 
 The repository is organized into three main directories:
 
@@ -67,9 +71,9 @@ target_role: Full-Stack Developer
 prerequisites: Basic programming knowledge.
 url: https://example.com/fullstack-bootcamp
 modules:
-  - Module 1: HTML & CSS Basics
-  - Module 2: JavaScript and React
-  - Module 3: Backend with Node.js
+  - Module 1 - HTML & CSS Basics
+  - Module 2 - JavaScript and React
+  - Module 3 - Backend with Node.js
 duration_weeks: 12
 language: English
 deprecated: false

@@ -6,29 +6,29 @@ prerequisites:
   Avoir des bases en cloud computing est un atout.
 url: https://eazytraining.fr/%C3%A9v%C3%A8nement/bootcamp-aws-cloud-engineer/
 modules:
-  - Module 00: Présentation du métier d’ingénieur Cloud AWS(rôles et responsabilités)
-  - Module 01: Introduction au cloud computing et AWS
-  - Module 02: Introduction à l’architecture du cloud AWS
-  - Module 03: sécurité AWS et gestion de compte(AWS IAM, CloudTrail, KMS, SSM parameter store, Secret Manager, CloudHSM, ACM, Amazon Cognito, AWS Directory Service, AWS Security Hub, AWS Firewall Manager, AWS WAF, etc.)
-  - Module 04: Les concepts réseaux AWS et sa mise en place (VPC, VPC Peering, Transit Gateway, VPC lattice, PrivateLink, Direct Connect, VPN, Amazon Route 53, AWS Cloud Map)
-  - Module 05: les services de calculs AWS(Amazon EC2, AWS Outpost, AWS Lightsail, AWS EMR, AWS Amplify, etc.)
-  - Module 06: mise en œuvre de l’élasticité et de la haute disponibilité et de la surveillance( EC2 Auto Scaling, récupération après désastre, etc)
-  - Module 07: Équilibrage de charge(ALB, NLB, Gateway Load Balancer, Classic Load balancer)
-  - Module 08: les services de stockage AWS(Amazon S3, EBS, instance store, EFS, FSx, Storage gateway, Amazon Backup)
-  - Module 09: les services de bases de données(Amazon RDS, DynamoDB, Aurora, DocumentDB, Amazon Neptune)
-  - Module 10: les services de migration des données AWS(DataSync, Transfer Family, Storage Gateway, Snow Family, DMS, SMS)
-  - Module 11: les services d’ingénierie des données AWS(amazon RedShift, amazon Kinesis, Amazon Athena, AWS Glue, Amazon QuickSight, AWS Lake Formation)
-  - Module 12: les services d’intégration d’application et outils développeur(Amazon SNS, Amazon EventBridge, AWS CodeCommit, CodeBuild, CodeDeploy, CodePipeline)
-  - Module 13: Automatisation d’architecture(AWS CloudFormation, Elastic Beanstalk, System Manager)
-  - Module 14: construction d’architecture découplée(Amazon SQS, Amazon MQ, Amazon API Gateway, AWS Step function)
-  - Module 15: architecture AWS Serverless (Amazon EKS, Amazon ECS, Amazon ECR, AWS Fargate, Amazon X-Ray, AWS Lambda, AppSync, AWS SAM, )
-  - Module 16: les services de caching et de communication(Amazon Cloudfront, Elasticache, Dax)
-  - Module 17: gestion des coûts (AWS Budget, AWS Cost and Usage Report, AWS Cost Explorer, AWS pricing calculator)
-  - Module 18: gouvernance(AWS Organization, Personal Health Dashboard, AWS Control Tower, AWS Config, Amazon Guarduty, AWS License Manager)
-  - Module 19: les services d’intelligence artificielle AWS( Amazon Comprehend, Amazon Textract, Amazon SageMaker, Amazon Polly, Amazon Translate, Amazon Kendra, Amazon Transcribe, Amazon Lex, Amazon Rekognition, Amazon Forecast et Amazon Fraud Detector)
-  - Module 20: autres services (Amazon Elastic Transcoder, AWS Device Farm, Amazon Pinpoint, AWs IoT Analytic, etc)
-  - Module 21: réalisation des projets
-  - Module 22: préparation aux certifications (AWS Cloud Practitioner, AWS Certified SysOps Administrator Associate, AWS Solution Architect Associate).
-duration_weeks: 4
+  - Module 00 - Présentation du métier d’ingénieur Cloud AWS(rôles et responsabilités)
+  - Module 01 - Introduction au cloud computing et AWS
+  - Module 02 - Introduction à l’architecture du cloud AWS
+  - Module 03 - sécurité AWS et gestion de compte(AWS IAM, CloudTrail, KMS, SSM parameter store, Secret Manager, CloudHSM, ACM, Amazon Cognito, AWS Directory Service, AWS Security Hub, AWS Firewall Manager, AWS WAF, etc.)
+  - Module 04 - Les concepts réseaux AWS et sa mise en place (VPC, VPC Peering, Transit Gateway, VPC lattice, PrivateLink, Direct Connect, VPN, Amazon Route 53, AWS Cloud Map)
+  - Module 05 - les services de calculs AWS(Amazon EC2, AWS Outpost, AWS Lightsail, AWS EMR, AWS Amplify, etc.)
+  - Module 06 - mise en œuvre de l’élasticité et de la haute disponibilité et de la surveillance( EC2 Auto Scaling, récupération après désastre, etc)
+  - Module 07 - Équilibrage de charge(ALB, NLB, Gateway Load Balancer, Classic Load balancer)
+  - Module 08 - les services de stockage AWS(Amazon S3, EBS, instance store, EFS, FSx, Storage gateway, Amazon Backup)
+  - Module 09 - les services de bases de données(Amazon RDS, DynamoDB, Aurora, DocumentDB, Amazon Neptune)
+  - Module 10 - les services de migration des données AWS(DataSync, Transfer Family, Storage Gateway, Snow Family, DMS, SMS)
+  - Module 11 - les services d’ingénierie des données AWS(amazon RedShift, amazon Kinesis, Amazon Athena, AWS Glue, Amazon QuickSight, AWS Lake Formation)
+  - Module 12 - les services d’intégration d’application et outils développeur(Amazon SNS, Amazon EventBridge, AWS CodeCommit, CodeBuild, CodeDeploy, CodePipeline)
+  - Module 13 - Automatisation d’architecture(AWS CloudFormation, Elastic Beanstalk, System Manager)
+  - Module 14 - construction d’architecture découplée(Amazon SQS, Amazon MQ, Amazon API Gateway, AWS Step function)
+  - Module 15 - architecture AWS Serverless (Amazon EKS, Amazon ECS, Amazon ECR, AWS Fargate, Amazon X-Ray, AWS Lambda, AppSync, AWS SAM, )
+  - Module 16 - les services de caching et de communication(Amazon Cloudfront, Elasticache, Dax)
+  - Module 17 - gestion des coûts (AWS Budget, AWS Cost and Usage Report, AWS Cost Explorer, AWS pricing calculator)
+  - Module 18 - gouvernance(AWS Organization, Personal Health Dashboard, AWS Control Tower, AWS Config, Amazon Guarduty, AWS License Manager)
+  - Module 19 - les services d’intelligence artificielle AWS( Amazon Comprehend, Amazon Textract, Amazon SageMaker, Amazon Polly, Amazon Translate, Amazon Kendra, Amazon Transcribe, Amazon Lex, Amazon Rekognition, Amazon Forecast et Amazon Fraud Detector)
+  - Module 20 - autres services (Amazon Elastic Transcoder, AWS Device Farm, Amazon Pinpoint, AWs IoT Analytic, etc)
+  - Module 21 - réalisation des projets
+  - Module 22 - préparation aux certifications (AWS Cloud Practitioner, AWS Certified SysOps Administrator Associate, AWS Solution Architect Associate).
+duration_weeks: 8
 language: French
 deprecated: false

@@ -1,5 +1,7 @@
 import sys
 import yaml
+import os
+import glob
 
 SQL_FILE = "eazyskills_update.sql"
 
@@ -76,16 +78,40 @@ def process_file(file_path):
         else:
             raise ValueError(f"Unknown directory for file: {file_path}")
 
-if __name__ == "__main__":
-    files = sys.argv[1:]  # Get list of modified files passed as arguments
+def collect_files(paths):
+    """Collect all YAML files from provided paths and folders."""
+    collected_files = []
+    for path in paths:
+        if os.path.isfile(path) and path.endswith(".yaml"):
+            # Single file
+            collected_files.append(path)
+        elif os.path.isdir(path):
+            # Folder: collect all YAML files recursively
+            collected_files.extend(glob.glob(os.path.join(path, "**", "*.yaml"), recursive=True))
+        elif "*" in path:
+            # Glob pattern (e.g., courses/*)
+            collected_files.extend(glob.glob(path, recursive=True))
+        else:
+            print(f"Invalid path or file: {path}")
+    return collected_files
 
-    if not files:
-        print("No files to process.")
+if __name__ == "__main__":
+    paths = sys.argv[1:]  # Get list of files/folders passed as arguments
+
+    if not paths:
+        print("No paths provided.")
+        sys.exit(0)
+
+    # Collect all files from the provided paths
+    yaml_files = collect_files(paths)
+
+    if not yaml_files:
+        print("No YAML files found.")
         sys.exit(0)
 
     sql_statements = []
 
-    for file in files:
+    for file in yaml_files:
         try:
             sql_statements.append(process_file(file))
         except Exception as e:
