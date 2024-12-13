@@ -1,0 +1,15 @@
+id: null
+name: Git - La bonne façon
+url: https://zerofiltre.tech/cours/3-full-cycle-dev-ops-élevez-le-développement-au-delà-du-build/36-1-1-l-impact-des-pratiques-devops-sur-votre-fiche-de-paie
+duration_hours: 3
+level: Intermediate
+objectives: Le but de ce chapitre est de vous présenter la bonne faon de travailler à plusieurs avec git.
+description: >
+  Sans doutes, vous connaissez déjà les commandes de base git tel que :
+  init,add,commit,pull,merge,rebase et push , -- si ce n'est pas le cas, vous verrez à quoi elles servent en regardant les prochaines vidéos -- ainsi nous allons les aborder dans le but d'illustrer la notion de Trunk Based Development qui est une procédure simplifiée mais efficace de gestion de code source en équipe.
+  Pour ce chapitre, pas besoin de produire des livrables, contentez-vous d'appliquez les TPs fournis dans les vidéos.
+prerequisites: Basic programming knowledge.
+technologies:
+  - git
+language: French
+deprecated: false
