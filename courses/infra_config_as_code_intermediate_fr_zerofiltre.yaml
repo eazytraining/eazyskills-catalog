@@ -1,0 +1,20 @@
+id: null
+name: Infra et Config As Code
+url: https://zerofiltre.tech/cours/3-full-cycle-dev-ops-élevez-le-développement-au-delà-du-build/118-8-0-description-du-projet
+duration_hours: 10
+level: Intermediate
+objectives:
+  Connaître ce que c’est que l'Infrastructure as code
+  Qu’est ce que Ansible ? Comment l’utiliser et dans quel contexte ?
+  Qu'est ce que Terraform ? Comment l’utiliser et dans quel contexte ?
+description: >
+  Vous êtes désormais un développeur capable de piloter les opérations de support, de maintenance et de supervision des systèmes que vous ou tout autre équipe avez/a développé.
+  Vous êtes donc capable de faire le "RUN" de ce qui a été "BUILD".
+  Cependant, le RUN s'appuie sur l'efficacité des infrastructures sous-jacentes aux système logiciel concerné. Ignorer totalement le fonctionnement de ce dernier pourrait être fatal en cas de grave incident ou d'indisponibilité des équipe chargée de mettre en place l’infrastructure.
+  Le but de ce projet sera donc de vous introduire aux bases de la construction des infra as code afin que vous ne soyez pas démunis en cas d'incidents de la sorte.
+prerequisites: docker, git, kubernetes.
+technologies:
+  - terraform
+  - ansible
+language: French
+deprecated: false
