@@ -1,0 +1,17 @@
+id: null
+name: CI/CD
+url: https://zerofiltre.tech/cours/31-évitez-le-désagrément-des-régressions-gr-ce-à-l-intégration-continue
+duration_hours: 5
+level: Intermediate
+objectives: Apprendre les bases de l'intégration continue.
+description: >
+  Les régressions sont essentiellement des bugs ou des défauts qui apparaissent dans le code après une modification de ce dernier.
+  Avec un procédé d'intégration continu correctement mis en place, vous bénéficiez des avantages suivants:
+  Détection précoce des régressions - L'automatisation des tests à chaque modification de code permet une identification rapide des erreurs, réduisant ainsi les risques de défaillance dans les versions futures.
+  Approche itérative du développement - En identifiant rapidement les régressions, les équipes peuvent se concentrer sur l'ajout de nouvelles fonctionnalités plutôt que sur la résolution de problèmes existants, accélérant ainsi le cycle de développement global.
+  Culture d'amélioration continue - Cette approche encourage une culture de responsabilité et d'amélioration continue au sein de l'équipe de développement, renforçant ainsi la qualité du code et la stabilité du produit.
+prerequisites: Avoir des connaissances de base sur le developpement informatique..
+technologies:
+  - jenkins 
+language: French
+deprecated: false
