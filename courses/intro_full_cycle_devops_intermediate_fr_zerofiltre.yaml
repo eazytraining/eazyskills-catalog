@@ -7,6 +7,7 @@ objectives: Acquérir les pratiques DevOps afin transformer votre approche du d�
 description: >
   Rejoignez ce parcours Full cycle Dev/Ops et intégrez sans heurts les phases de build(Dev) et run(Ops), pour des applications robustes, évolutives et prêtes pour le marché.
 prerequisites: Basic programming knowledge.
-technologies: []
+technologies:
+  - it
 language: French
 deprecated: false

@@ -12,6 +12,7 @@ The repository is organized into three main directories:
 -   **`courses/`**: Contains YAML files defining individual courses.
 -   **`paths/`**: Contains YAML files defining learning paths, including references to related courses.
 -   **`bootcamps/`**: Contains YAML files defining bootcamps, including their modules and duration.
+-   **`faqs/`**: Contains YAML files defining faqs
 ### **Example File Structure**
 ```
  repo/
@@ -26,6 +27,9 @@ The repository is organized into three main directories:
 ├── bootcamps/
 │   ├── bootcamp1.yaml
 │   ├── bootcamp2.yaml
+├── faqs/
+│   ├── faq1.yaml
+│   ├── faq2.yaml
 │
 └── README.md
 ``` 
@@ -77,6 +81,16 @@ modules:
 duration_weeks: 12
 language: English
 deprecated: false
+```
+### **FAQ Example**
+```
+id: null
+file_path: faqs/fr_eazytraining.yaml
+url: https://example.com/fullstack-bootcamp
+modules:
+  - question 1 - answer 1
+  - question 2 - answer 2
+  - question 3 - answer 3
 ```
 ## **How to Contribute**
 ### **Step 1: Fork the Repository**
@@ -195,6 +209,20 @@ Files describing bootcamps should follow this structure:
 
 -   `backend_developer_intensive_en.yaml`: Intensive bootcamp for backend developers in English.
 -   `fullstack_developer_advanced_fr.yaml`: Advanced bootcamp for fullstack developers in French.
+
+### **FAQS**
+
+Files describing FAQs should follow this structure:
+```
+<language>_<source>.<extension>
+```
+-   **`<source>`**: The platform or organization providing the course (`udemy`, `coursera`, `eazyskills`).
+-   **`<language>`**: The language of the bootcamp (`en`, `fr`, `es`).
+-   **`<extension>`**: File format (e.g., `.yaml`).
+
+#### **Examples:**
+
+-   `fr_eazytraining.yaml`: FAQ from EAZYTraining website in french.
 
 ### **Validation**
 

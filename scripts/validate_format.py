@@ -54,6 +54,8 @@ ALLOWED_TECHNOLOGIES = {
     "tableau", "tableau-desktop",
     # Network tools
     "cisco", "packet-tracer",
+    # domain
+    "it",
 }
 
 def validate_technologies(technologies):
@@ -61,18 +63,24 @@ def validate_technologies(technologies):
     invalid_technologies = [tech for tech in technologies if tech not in ALLOWED_TECHNOLOGIES]
     return invalid_technologies
 
-def validate_file(file, required_fields, names_seen):
+def validate_file(file, required_fields, category, names_seen):
     """Validate a single YAML file."""
     errors = []
     with open(file, "r") as f:
         try:
             data = yaml.safe_load(f)
 
-            # Check required fields
+            # Validate common fields for all categories
             for field in required_fields:
                 if field not in data:
                     errors.append(f"{file}: Missing field '{field}'")
-            
+
+            # Validate technologies (specific to courses)
+            if category == "courses" and "technologies" in data:
+                invalid_technologies = validate_technologies(data["technologies"])
+                if invalid_technologies:
+                    errors.append(f"{file}: Invalid technologies - {', '.join(invalid_technologies)}")
+
             # Validate uniqueness of 'name'
             if "name" in data:
                 name = data["name"]
@@ -80,37 +88,39 @@ def validate_file(file, required_fields, names_seen):
                     errors.append(f"{file}: Duplicate name '{name}' found in {names_seen[name]}")
                 else:
                     names_seen[name] = file
-            
-            # Validate technologies
-            if "technologies" in data:
-                invalid_technologies = validate_technologies(data["technologies"])
-                if invalid_technologies:
-                    errors.append(f"{file}: Invalid technologies - {', '.join(invalid_technologies)}")
-        
+
+            # Additional validation for FAQ
+            if category == "faqs":
+                if "questions" in data:
+                    if not isinstance(data["questions"], list) or not all(isinstance(q, str) for q in data["questions"]):
+                        errors.append(f"{file}: 'questions' must be a list of strings")
+                else:
+                    errors.append(f"{file}: Missing 'questions' field")
+
         except yaml.YAMLError as e:
             errors.append(f"{file}: YAML parsing error - {e}")
-    
+
     return errors
 
 if __name__ == "__main__":
     errors = []
     names_seen = defaultdict(str)  # To track 'name' uniqueness across files
-    
+
     # Define required fields by category
-    required_fields_courses = ["name", "url", "duration_hours", "level", "objectives", "description", "technologies", "language", "deprecated"]
-    required_fields_paths = ["name", "target_role", "course_ids", "language", "deprecated"]
-    required_fields_bootcamps = ["name", "target_role", "modules", "duration_weeks", "language", "deprecated"]
+    required_fields = {
+        "courses": ["name", "url", "duration_hours", "level", "objectives", "description", "technologies", "language", "deprecated"],
+        "paths": ["name", "target_role", "course_ids", "language", "deprecated"],
+        "bootcamps": ["name", "target_role", "modules", "duration_weeks", "language", "deprecated"],
+        "faqs": ["url", "questions"]
+    }
 
     # Validate content for each category
-    for directory, required_fields in [
-        ("courses", required_fields_courses),
-        ("paths", required_fields_paths),
-        ("bootcamps", required_fields_bootcamps),
-    ]:
+    for category, fields in required_fields.items():
+        directory = category
         files = glob(f"{directory}/*.yaml")
         for file in files:
-            errors += validate_file(file, required_fields, names_seen)
-    
+            errors += validate_file(file, fields, category, names_seen)
+
     if errors:
         print("Invalid file content detected:")
         for error in errors:
@@ -118,4 +128,3 @@ if __name__ == "__main__":
         sys.exit(1)
     else:
         print("All file contents are valid.")
-        

@@ -7,6 +7,7 @@ from glob import glob
 PATTERN_COURSES = r"^[a-z_]+_(beginner|intermediate|advanced)_(en|fr|es)(_([a-z_]+))?\.yaml$"
 PATTERN_PATHS = r"^[a-z_]+(_[a-z_]+)?_(en|fr|es)\.yaml$"
 PATTERN_BOOTCAMPS = r"^[a-z_]+_[a-z_]+_(en|fr|es)\.yaml$"
+PATTERN_FAQS = r"^[a-z_]+_(en|fr|es)\.yaml$"  # Example: fr_eazytraining.yaml
 
 def validate_naming(directory, pattern):
     """Validate filenames in a directory against a given regex pattern."""
@@ -27,7 +28,8 @@ if __name__ == "__main__":
     errors += validate_naming("courses", PATTERN_COURSES)
     errors += validate_naming("paths", PATTERN_PATHS)
     errors += validate_naming("bootcamps", PATTERN_BOOTCAMPS)
-    
+    errors += validate_naming("faqs", PATTERN_FAQS)  # Validate FAQ filenames
+
     if errors:
         print("Invalid filenames detected:")
         for error in errors:
