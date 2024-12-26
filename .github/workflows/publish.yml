@@ -16,12 +16,26 @@ jobs:
         with:
           fetch-depth: 0  # Fetch full history to detect changes
 
-      # Step 2: Get Modified Files
-      - name: Get Modified Files
-        id: modified_files
+      # Step 2: Get list of modified files
+      - name: Get all changed markdown files
+        id: changed-markdown-files
+        uses: tj-actions/changed-files@v45
+        with:
+          # Avoid using single or double quotes for multiline patterns
+          files: |
+            courses/**.yaml
+            paths/**.yaml
+            bootcamps/**.yaml
+            faqs/**.yaml
+
+      - name: List all changed files markdown files
+        if: steps.changed-markdown-files.outputs.any_changed == 'true'
+        env:
+          ALL_CHANGED_FILES: ${{ steps.changed-markdown-files.outputs.all_changed_files }}
         run: |
-          MODIFIED_FILES=$(git diff --name-only HEAD^ HEAD | grep '\.yaml$' || echo "")
-          echo "files=$MODIFIED_FILES" >> $GITHUB_ENV
+          for file in ${ALL_CHANGED_FILES}; do
+            echo "$file was changed"
+          done
 
       # Step 3: Set up Python
       - name: Set Up Python
@@ -36,8 +50,11 @@ jobs:
 
       # Step 5: Generate SQL Script
       - name: Generate SQL Script
+        if: steps.changed-markdown-files.outputs.any_changed == 'true'
+        env:
+          ALL_CHANGED_FILES: ${{ steps.changed-markdown-files.outputs.all_changed_files }}
         run: |
-          if [ -z "$files" ]; then
+          if [ -z "$ALL_CHANGED_FILES" ]; then
             echo "No modified YAML files to process."
           else
             python scripts/generate_sql.py $files
@@ -45,7 +62,7 @@ jobs:
 
       # Step 6: Save SQL Script as Artifact
       - name: Upload SQL Script as Artifact
-        if: env.files != ''  # Only upload if there are modified files
+        if: steps.changed-markdown-files.outputs.any_changed == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: eazyskills_update.sql
