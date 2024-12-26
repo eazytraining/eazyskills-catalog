@@ -8,7 +8,7 @@ SQL_FILE = "eazyskills_update.sql"
 def escape_sql_string(value):
     """Escape single quotes in SQL strings."""
     if isinstance(value, str):
-        return value.replace("'", "''")  # Double apostrophes to escape
+        return value.replace("'", " ")  # Replace apostrophes with spaces
     return value
 
 def generate_sql_for_course(course, file_path):
@@ -60,6 +60,17 @@ def generate_sql_for_bootcamp(bootcamp, file_path):
         deprecated = EXCLUDED.deprecated;
     """
 
+def generate_sql_for_faq(faq, file_path):
+    """Generate SQL for a FAQ."""
+    questions = " ".join([escape_sql_string(q) for q in faq["questions"]])
+    return f"""
+    INSERT INTO faqs (file_path, url, questions)
+    VALUES ('{file_path}', '{escape_sql_string(faq["url"])}', ARRAY{faq["questions"]})
+    ON CONFLICT (file_path) DO UPDATE SET
+        url = EXCLUDED.url,
+        questions = EXCLUDED.questions;
+    """
+
 def process_file(file_path):
     """Process a single YAML file and generate SQL."""
     with open(file_path, "r") as f:
@@ -75,6 +86,8 @@ def process_file(file_path):
             return generate_sql_for_path(data, file_path)
         elif "bootcamps/" in file_path:
             return generate_sql_for_bootcamp(data, file_path)
+        elif "faqs/" in file_path:
+            return generate_sql_for_faq(data, file_path)
         else:
             raise ValueError(f"Unknown directory for file: {file_path}")
 
