@@ -26,6 +26,7 @@ jobs:
             courses/**.yaml
             paths/**.yaml
             bootcamps/**.yaml
+            faqs/**.yaml
 
       - name: List all changed files markdown files
         if: steps.changed-markdown-files.outputs.any_changed == 'true'
