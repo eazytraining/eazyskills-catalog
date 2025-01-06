@@ -50,7 +50,7 @@ jobs:
 
       # Step 5: Generate SQL Script
       - name: Generate SQL Script
-        if: steps.changed-markdown-files.outputs.any_changed == 'true'
+        # if: steps.changed-markdown-files.outputs.any_changed == 'true'
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-markdown-files.outputs.all_changed_files }}
         run: |
@@ -62,7 +62,7 @@ jobs:
 
       # Step 6: Save SQL Script as Artifact
       - name: Upload SQL Script as Artifact
-        if: steps.changed-markdown-files.outputs.any_changed == 'true'
+        # if: steps.changed-markdown-files.outputs.any_changed == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: eazyskills_update.sql
