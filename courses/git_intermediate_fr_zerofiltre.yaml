@@ -11,5 +11,5 @@ description: >
 prerequisites: Basic programming knowledge.
 technologies:
   - git
-language: French
 deprecated: false
+language: French

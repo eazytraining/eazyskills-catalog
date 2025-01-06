@@ -12,5 +12,5 @@ prerequisites: Connaissances de base en ligne de commande Linux et compréhensio
 technologies:
   - linux
   - ubuntu
-language: French
 deprecated: false
+language: French

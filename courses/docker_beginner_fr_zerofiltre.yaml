@@ -13,5 +13,5 @@ prerequisites: Basic programming knowledge.
 technologies:
   - docker
   - containerd
-language: French
 deprecated: false
+language: French

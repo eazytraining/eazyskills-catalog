@@ -17,5 +17,5 @@ prerequisites: Aucune.
 technologies:
   - sql
   - postgresql
-language: French
 deprecated: false
+language: French

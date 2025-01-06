@@ -15,5 +15,5 @@ technologies:
   - grafana
   - loki
   - alertmanager
-language: French
 deprecated: false
+language: French

@@ -24,5 +24,5 @@ technologies:
   - helm
   - docker-compose
   - docker-swarm
-language: French
 deprecated: false
+language: French

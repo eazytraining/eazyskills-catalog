@@ -16,5 +16,5 @@ prerequisites: docker, git.
 technologies:
   - helm
   - kubernetes
-language: French
 deprecated: false
+language: French

@@ -13,5 +13,5 @@ prerequisites: >
 technologies:
   - docker
   - kubernetes
-language: French
 deprecated: false
+language: French

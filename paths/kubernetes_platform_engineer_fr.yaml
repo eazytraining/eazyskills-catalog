@@ -11,5 +11,5 @@ course_ids:
   - courses/kubernetes_platform_engineer_intermediate_fr_eazytraining.yaml
 prerequisites: Connaissances de base sur Docker.
 url: https://eazytraining.fr/parcours-platform-engineer-kubernetes/
-language: French
 deprecated: false
+language: French

@@ -14,5 +14,5 @@ prerequisites: Avoir des connaissances de base sur AWS
 technologies:
   - aws
   - terraform
-language: French
 deprecated: false
+language: French

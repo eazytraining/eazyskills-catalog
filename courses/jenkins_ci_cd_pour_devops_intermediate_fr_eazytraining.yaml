@@ -13,5 +13,5 @@ technologies:
   - jenkins
   - git
   - docker
-language: French
 deprecated: false
+language: French

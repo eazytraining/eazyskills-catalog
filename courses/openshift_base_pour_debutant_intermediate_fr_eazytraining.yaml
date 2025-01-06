@@ -13,5 +13,5 @@ technologies:
   - openshift
   - docker
   - kubernetes
-language: French
 deprecated: false
+language: French

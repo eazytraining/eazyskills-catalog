@@ -7,5 +7,5 @@ course_ids:
   - courses/power_bi_basics_beginner_fr_eazytraining.yaml
 prerequisites: Pas de prérequis.
 url: https://eazytraining.fr/parcours-data-analyst/
-language: French
 deprecated: false
+language: French

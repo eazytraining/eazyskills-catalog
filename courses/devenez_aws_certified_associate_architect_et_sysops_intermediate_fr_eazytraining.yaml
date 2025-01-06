@@ -26,5 +26,5 @@ technologies:
   - s3
   - lambda
   - rds
-language: French
 deprecated: false
+language: French

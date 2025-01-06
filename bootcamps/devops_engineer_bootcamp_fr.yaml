@@ -12,5 +12,5 @@ modules:
   - Module 6 - Gestion d infrastructure avec Terraform
   - Module 7 - CI/CD avec GitLab
 duration_weeks: 12
-language: French
 deprecated: false
+language: French

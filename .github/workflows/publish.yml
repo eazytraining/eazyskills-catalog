@@ -54,7 +54,11 @@ jobs:
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-markdown-files.outputs.all_changed_files }}
         run: |
-          python scripts/generate_sql.py $files
+          if [ -z "$ALL_CHANGED_FILES" ]; then
+            echo "No modified YAML files to process."
+          else
+            python scripts/generate_sql.py $files
+          fi
 
       # Step 6: Save SQL Script as Artifact
       - name: Upload SQL Script as Artifact

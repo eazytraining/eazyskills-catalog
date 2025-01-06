@@ -16,5 +16,5 @@ technologies:
  - docker-compose
  - helm
  - openshift
-language: French
 deprecated: false
+language: French

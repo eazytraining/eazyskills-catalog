@@ -18,5 +18,5 @@ technologies:
   - kubernetes
   - git 
   - gitlab
-language: French
 deprecated: false
+language: French

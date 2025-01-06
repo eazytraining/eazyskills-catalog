@@ -17,5 +17,5 @@ technologies:
   - kubernetes
   - git 
   - docker
-language: French
 deprecated: false
+language: French

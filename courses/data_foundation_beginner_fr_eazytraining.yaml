@@ -12,5 +12,5 @@ prerequisites: Pas de prérequis.
 technologies:
   - python
   - mysql
-language: French
 deprecated: false
+language: French

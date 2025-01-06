@@ -5,5 +5,5 @@ course_ids:
   - courses/devenez_testeur_logiciel_intermediate_fr_eazytraining.yaml
 prerequisites: Pas de prérequis.
 url: https://eazytraining.fr/parcours-testeur-logiciel-2/
-language: French
 deprecated: false
+language: French

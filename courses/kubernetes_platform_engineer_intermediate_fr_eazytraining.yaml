@@ -27,5 +27,5 @@ technologies:
   - vcluster
   - dapr
   - linux
-language: French
 deprecated: false
+language: French

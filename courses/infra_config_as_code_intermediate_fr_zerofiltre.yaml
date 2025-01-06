@@ -16,5 +16,5 @@ prerequisites: docker, git, kubernetes.
 technologies:
   - terraform
   - ansible
-language: French
 deprecated: false
+language: French

@@ -13,5 +13,5 @@ course_ids:
   - courses/infra_config_as_code_intermediate_fr_zerofiltre.yaml
 prerequisites: Avoir de bonnes bases en developpement informatique.
 url: https://zerofiltre.tech/cours/3-full-cycle-dev-ops-élevez-le-développement-au-delà-du-build
-language: French
 deprecated: false
+language: French

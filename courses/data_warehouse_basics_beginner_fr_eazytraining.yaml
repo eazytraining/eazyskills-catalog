@@ -22,5 +22,5 @@ technologies:
   - dynamodb
   - teradata
   - snowflake
-language: French
 deprecated: false
+language: French

@@ -30,5 +30,5 @@ modules:
   - Module 21 - réalisation des projets
   - Module 22 - préparation aux certifications (AWS Cloud Practitioner, AWS Certified SysOps Administrator Associate, AWS Solution Architect Associate).
 duration_weeks: 8
-language: French
 deprecated: false
+language: French

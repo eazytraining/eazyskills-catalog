@@ -13,5 +13,5 @@ description: >
 prerequisites: Avoir des connaissances de base sur le developpement informatique..
 technologies:
   - jenkins 
-language: French
 deprecated: false
+language: French

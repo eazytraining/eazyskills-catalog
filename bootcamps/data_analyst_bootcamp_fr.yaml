@@ -20,5 +20,5 @@ modules:
   - Module 11 - Automatisation des tâches d’analyse de données
   - Module 12 - Préparation aux certifications Data Analyst (Microsoft Certified Data Analyst Associate, Tableau Certification, etc.)
 duration_weeks: 12
-language: French
 deprecated: false
+language: French

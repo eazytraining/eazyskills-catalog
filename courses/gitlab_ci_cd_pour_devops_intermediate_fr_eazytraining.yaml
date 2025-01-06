@@ -14,5 +14,5 @@ technologies:
   - gitlab-ci
   - git
   - docker
-language: French
 deprecated: false
+language: French

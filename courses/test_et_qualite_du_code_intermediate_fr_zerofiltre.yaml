@@ -11,5 +11,5 @@ description: >
 prerequisites: Basic programming knowledge.
 technologies:
   - sonarcloud
-language: French
 deprecated: false
+language: French
