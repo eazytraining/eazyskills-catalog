@@ -1,0 +1,26 @@
+id: null
+name: Docker Avancé
+url: https://eazytraining.fr/cours/docker-avance/
+duration_hours: 3.8
+level: Intermediate
+objectives: Maîtrisez Docker pour une Infrastructure Moderne et Scalable.
+description: >
+  Docker est un outil incontournable pour simplifier, automatiser et sécuriser le déploiement d’applications modernes.
+  Avec ses fonctionnalités avancées, il permet de gérer efficacement des microservices, des conteneurs et des environnements complexes, que ce soit sur vos machines locales ou dans le cloud.
+prerequisites: Introduction à Docker.
+technologies:
+  - Docker
+  - Docker compose
+  - Pipeline ci/cd
+  - Registre privé (dockerhub, Harbor, artifactory)
+  - Scan image( trivy, snyk, clair)
+  - Docker content trust
+  - Socket docker
+  - Les contextes
+  - TLS Auth
+  - Ingress
+  - Observabilité ( grafana, prometheus)
+  - Logging ( elastic, fluentd, kibana)
+  - Orchestration ( kubernetes)
+deprecated: false
+language: French
