@@ -1,6 +1,6 @@
 id: null
 name: Introduction à Docker
-url: https://eazytraining.fr/cours/introduction-a-docker/
+url: https://www.eazytraining.fr/cours/introduction-a-docker/
 duration_hours: 4
 level: Beginner
 objectives: Apprenez les bases de la conteneurisation et déployez vos premiers micro-services avec Docker.

@@ -1,6 +1,6 @@
 id: null
 name: Terraform Cloud
-url: https://eazytraining.fr/cours/terraform-cloud/
+url: https://www.eazytraining.fr/cours/terraform-cloud/
 duration_hours: 2
 level: Intermediate
 objectives: Cette formation pratique vous aidera à maîtriser l’utilisation de Terraform Cloud pour automatiser le déploiement de vos applications sur AWS/AZURE

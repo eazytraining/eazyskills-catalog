@@ -1,6 +1,6 @@
 id: null
 file_path: faqs/fr_eazytraining.yaml
-url: https://eazytraining.fr/faq/
+url: https://www.eazytraining.fr/faq/
 questions: 
   - Que me conseillez-vous de choisir si je suis débutant dans le Devops ? L abonnement ou le bootcamp ? - Nous vous recommandons le BootCamp car l intérêt c est que vous aurez un suivi de votre progression et vous serez au contact d un formateur expert   Vous ferez partie d un groupe (donc vous ne serez pas tout seul) De plus   le formateur vous préparera aux entretiens DevOps. Enfin   vous serez accompagné dans les mini projets et projet fil-rouge qui vous permettront de vous préparer aux situations d entreprises. avec l abonnement est idéal quand vous avez déjà un bon niveau et que vous pouvez travailler en autonomie.
   - Qu est-ce que je peux faire en attendant le début du prochain bootcamp Devops ? - Vous pouvez prendre un abonnement et commencez à suivre les cours Linux   Vagrant et Git. Lorsque vous serez inscrit au bootcamp vous pourrez résilier votre abonnement et prendre l abonnement gratuit annuel offert à la suite de votre inscription au bootcamp Avec ces 3 cours vous êtes sûre de bien débuter la formation.
@@ -24,4 +24,4 @@ questions:
   - Vous avez un abonnement payant et vous n avez pas accès aux cours ? - Suivez cette vidéo https://www.youtube.com/watch?v=ccIkxGiVBVk
   - Comment résilier mon abonnement à EAZYTraining.fr ? - Suivez cette vidéo https://www.youtube.com/watch?v=n36NNQipKPE
   - Je n arrive pas à télécharger les supports de cours - Suite à des abus de certains apprenants   nous ne fournissons plus les supports de cours
-  - Je souhaite me former en Devops   quelles sont vos offres ? - Pour vous former sur EazyTraining   vous avez deux possibilités   a- Prendre un abonnement mensuel ou annuel et travailler en toute autonomie https://eazytraining.fr/pricing/ et suivre le parcours Devops https://eazytraining.fr/parcours-devops/ b- Participez au bootcamp devops avec l avantage d avoir un suivi par un formateur et la réalisation de mini-projets https://eazytraining.fr/ %C3 %A9v %C3 %A8nement/devops-bootcamp-devenez-devops-en-3-mois/
+  - Je souhaite me former en Devops   quelles sont vos offres ? - Pour vous former sur EazyTraining   vous avez deux possibilités   a- Prendre un abonnement mensuel ou annuel et travailler en toute autonomie https://www.eazytraining.fr/pricing/ et suivre le parcours Devops https://www.eazytraining.fr/parcours-devops/ b- Participez au bootcamp devops avec l avantage d avoir un suivi par un formateur et la réalisation de mini-projets https://www.eazytraining.fr/ %C3 %A9v %C3 %A8nement/devops-bootcamp-devenez-devops-en-3-mois/

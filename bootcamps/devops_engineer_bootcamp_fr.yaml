@@ -2,7 +2,7 @@ id: null
 name: DevOps Bootcamp
 target_role: DevOps Engineer
 prerequisites: Connaissances basiques en Linux et réseaux.
-url: https://eazytraining.fr/%C3%A9v%C3%A8nement/devops-bootcamp-devenez-devops-en-3-mois/
+url: https://www.eazytraining.fr/%C3%A9v%C3%A8nement/devops-bootcamp-devenez-devops-en-3-mois/
 modules:
   - Module 1 - Introduction à Linux et Git
   - Module 2 - Conteneurisation avec Docker

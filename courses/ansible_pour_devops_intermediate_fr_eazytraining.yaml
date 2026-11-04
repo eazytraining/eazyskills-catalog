@@ -1,6 +1,6 @@
 id: null
 name: Ansible pour DevOps
-url: https://eazytraining.fr/cours/ansible-pour-devops/
+url: https://www.eazytraining.fr/cours/ansible-pour-devops/
 duration_hours: 8
 level: Intermediate
 objectives: Maîtrisez l'automatisation de l'infrastructure et du déploiement avec Ansible, l'outil de gestion de configuration essentiel pour DevOps.

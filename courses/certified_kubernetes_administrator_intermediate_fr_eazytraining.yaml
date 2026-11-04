@@ -1,6 +1,6 @@
 id: null
 name: "Devenez Certified Kubernetes Administrator"
-url: https://eazytraining.fr/cours/devenez-certified-kubernetes-administrator/
+url: https://www.eazytraining.fr/cours/devenez-certified-kubernetes-administrator/
 duration_hours: 10
 level: Intermediate
 objectives: Relevez les défis de l'administration d'un cluster Kubernetes.
@@ -16,8 +16,8 @@ description: >
   6. Mise en réseau : Comprenez les concepts de réseau dans un environnement Kubernetes et configurez les services de découverte et de communication entre les applications.
   7. Monitoring et logging : Apprenez à surveiller et à collecter les journaux de votre cluster Kubernetes pour assurer sa bonne santé et détecter d'éventuels problèmes.
 prerequisites: >
-  1. Avoir de bonnes bases sur Docker (https://eazytraining.fr/cours/introduction-a-docker/)
-  2. Avoir de bonnes bases sur kubernetes (https://eazytraining.fr/cours/kubernetes-les-bases-pour-devops/)
+  1. Avoir de bonnes bases sur Docker (https://www.eazytraining.fr/cours/introduction-a-docker/)
+  2. Avoir de bonnes bases sur kubernetes (https://www.eazytraining.fr/cours/kubernetes-les-bases-pour-devops/)
 technologies:
   - kubernetes
   - docker
