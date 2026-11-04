@@ -1,68 +1,98 @@
+
 name: Generate SQL Script for Database Update
 
 on:
   push:
     branches:
-      - main  # Trigger only on merges to the main branch
+      - main
+
 jobs:
   generate-sql:
     runs-on: ubuntu-22.04
 
     steps:
-      # Step 1: Checkout the repository
+      # Step 1: Checkout repository
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Fetch full history to detect changes
+          fetch-depth: 0
 
-      # Step 2: Get list of modified files
-      - name: Get all changed markdown files
-        id: changed-markdown-files
+      # Step 2: Detect changes in the relevant directories
+      - name: Detect YAML Changes
+        id: changed-yaml
         uses: tj-actions/changed-files@v45
         with:
-          # Avoid using single or double quotes for multiline patterns
           files: |
-            courses/**.yaml
-            paths/**.yaml
-            bootcamps/**.yaml
-            faqs/**.yaml
+            courses/**/*.yaml
+            paths/**/*.yaml
+            bootcamps/**/*.yaml
+            faqs/**/*.yaml
 
-      - name: List all changed files markdown files
-        if: steps.changed-markdown-files.outputs.any_changed == 'true'
+      # Step 3: Display detected changes
+      - name: List Changed YAML Files
+        if: steps.changed-yaml.outputs.any_changed == 'true'
         env:
-          ALL_CHANGED_FILES: ${{ steps.changed-markdown-files.outputs.all_changed_files }}
+          ALL_CHANGED_FILES: ${{ steps.changed-yaml.outputs.all_changed_files }}
         run: |
-          for file in ${ALL_CHANGED_FILES}; do
-            echo "$file was changed"
+          echo "Changes detected:"
+          for file in $ALL_CHANGED_FILES; do
+            echo "$file"
           done
 
-      # Step 3: Set up Python
+      # Step 4: Set up Python
       - name: Set Up Python
-        uses: actions/setup-python@v3
+        uses: actions/setup-python@v5
         with:
-          python-version: 3.8
+          python-version: '3.8'
 
-      # Step 4: Install dependencies
+      # Step 5: Install dependencies
       - name: Install Dependencies
+        if: steps.changed-yaml.outputs.any_changed == 'true'
         run: |
+          python -m pip install --upgrade pip
           pip install PyYAML==6.0
 
-      # Step 5: Generate SQL Script
-      - name: Generate SQL Script
-        if: steps.changed-markdown-files.outputs.any_changed == 'true'
-        env:
-          ALL_CHANGED_FILES: ${{ steps.changed-markdown-files.outputs.all_changed_files }}
+      # Step 6: Collect ALL YAML files and generate SQL
+      - name: Generate Complete SQL Script
+        if: steps.changed-yaml.outputs.any_changed == 'true'
+        shell: bash
         run: |
-          if [ -z "$ALL_CHANGED_FILES" ]; then
-            echo "No modified YAML files to process."
-          else
-            python scripts/generate_sql.py $files
+          echo "Collecting all YAML files..."
+
+          mapfile -d '' ALL_YAML_FILES < <(
+            find courses paths bootcamps faqs \
+              -type f \
+              -name '*.yaml' \
+              -print0 | sort -z
+          )
+
+          if [ ${#ALL_YAML_FILES[@]} -eq 0 ]; then
+            echo "No YAML files found."
+            exit 1
           fi
 
-      # Step 6: Save SQL Script as Artifact
+          echo "Total YAML files found: ${#ALL_YAML_FILES[@]}"
+
+          echo "Generating complete SQL script..."
+
+          python scripts/generate_sql.py "${ALL_YAML_FILES[@]}"
+
+          echo "SQL generation completed."
+
+          if [ ! -f eazyskills_update.sql ]; then
+            echo "ERROR: eazyskills_update.sql was not generated."
+            exit 1
+          fi
+
+          echo "SQL file successfully generated:"
+          ls -lh eazyskills_update.sql
+
+      # Step 7: Upload SQL artifact
       - name: Upload SQL Script as Artifact
-        if: steps.changed-markdown-files.outputs.any_changed == 'true'
+        if: steps.changed-yaml.outputs.any_changed == 'true'
         uses: actions/upload-artifact@v4
         with:
-          name: eazyskills_update.sql
+          name: eazyskills_update
           path: eazyskills_update.sql
+          if-no-files-found: error
+          compression-level: 6
